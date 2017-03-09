@@ -71,6 +71,21 @@ div {padding: 20px;}
 }
 
 @media screen and (min-width: 640px) {
+    .col-sidebar {
+        width: 25%;
+        flex-basis: 25%;
+    }
+
+    .col-main {
+        width: 75%;
+        flex-basis: 75%;
+    }
+
+    .col-main-large {
+        width: 75%;
+        flex-basis: 75%;
+    }
+
     .banner {
         width: 33.3333%;
         flex-basis: 33.3333%;

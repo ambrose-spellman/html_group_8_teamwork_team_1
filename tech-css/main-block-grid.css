@@ -1,0 +1,105 @@
+/* colorizer */
+.container, .banner:first-child {background: yellow;}
+.col-sidebar, .banner:last-child {background: green;}
+.col-main, .col-main-large, .banner {background: red;}
+.col-banners {background: blue;}
+
+/* sizer */
+div {padding: 20px;}
+.container {padding: 0;}
+
+/* common */
+.container {
+    max-width: 1000px;
+    min-width: 320px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+/* Grid */
+.row-flex::after {
+    content: '';
+    display: table;
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.row-flex {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.col {
+    float: left;
+    box-sizing: border-box;
+}
+
+.col-sidebar {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.col-main {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.col-banners {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.col-main-large {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.banner {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+}
+
+@media screen and (min-width: 640px) {
+    .banner {
+        width: 33.3333%;
+        flex-basis: 33.3333%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .col-sidebar {
+        width: 21%;
+        flex-basis: 21%;
+    }
+
+    .col-main {
+        width: 58.7%;
+        flex-basis: 58.7%;
+    }
+
+    .col-banners {
+        width: 20.3%;
+        flex-basis: 20.3%;
+    }
+
+    .col-main-large {
+        width: 79%;
+        flex-basis: 79%;
+    }
+
+    .banner {
+        width: 100%;
+        flex-basis: 100%;
+    }
+}

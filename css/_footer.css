@@ -1,0 +1,146 @@
+body {
+    font-family: "CenturyGothicRegular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container {
+    min-width: 320px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.menu-grid {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.menu-grid li {
+    padding: 2px 5px;
+}
+
+.menu-grid a:hover {
+    background: #e1223c;
+    color: #fff;
+}
+
+.shedule span {
+    display: block;
+    font-size: 14px;
+    color: #423c37;
+}
+.contacts span {
+    display: block;
+    font-size: 16px;
+    color: #423c37;
+}
+
+
+
+
+.statistic {
+    display: none;
+}
+.footer .shedule {
+    text-align: center;
+    padding: 0 0 0 0;
+}
+.footer .shedule i {
+    display: block;
+}
+.footer-menu {
+    border-top: 5px solid #e1223c;
+}
+.footer .menu-grid a {
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 100%;
+    display: block;
+    color: #434342;
+    font-size: 16px;
+    padding: 5px 0 5px 14px;
+}
+.footer-info {
+    text-align: center;
+}
+.footer .shedule {
+    padding: 15px 0;
+}
+.footer .contacts {
+    padding: 15px 0;
+}
+.footer .developer {
+    padding: 15px 0;
+}
+.footer .developer a {
+    display: block;
+    padding: 0 33px 0 0;
+}
+.footer .developer span {
+    font-size: 14px;
+    color: #423c37;
+}
+
+
+
+@media screen and (min-width: 480px) {
+
+}
+@media screen and (min-width: 640px) {
+
+}
+@media screen and (min-width: 800px) {
+    .container {
+        padding: 0;
+    }
+
+    .menu ul li {
+        display: inline-block;
+    }      
+    .footer .menu-grid a {
+
+        padding: 6px 0px 7px 4px;
+
+    }
+    
+
+    
+    
+
+
+    .footer .menu-grid li {
+        padding: 0px 34px 0 0;
+    }
+    .footer .menu {
+        padding: 0 0 0 130px;
+    }
+    
+
+    .footer-info {
+        text-align: left;
+        padding: 7px 0 0 0;
+    }
+
+    .footer-col {
+        float: left;
+        width: 25%;
+    }
+    .statistic {
+        display: block;
+    }
+    .mobile-statistic {
+        display: none;
+    }
+    .footer .shedule {
+        padding: 17px 0 0 22px;
+        box-sizing: border-box;
+    }
+    .footer .contacts {
+        padding: 15px 0 0 59px;
+        box-sizing: border-box;
+    }
+    .footer .developer {
+        padding: 0px 38px 0 0px;
+        box-sizing: border-box;
+        text-align: right;
+    }
+
+}

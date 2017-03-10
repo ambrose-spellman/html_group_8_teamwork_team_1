@@ -12,17 +12,18 @@ body {
 .header-col-3{}
 
 .logo {
-
+    text-align: center;
 }
 .logo a {
     content: '';
     background: url(../images/logo.png) 0px 6px no-repeat;
     width: 203px;
     height: 30px;
-    display: inline-block;
+    display: block;
     top: 0;
     left: 0;
-    margin: 0 0px 0 0;
+    margin: auto;
+    text-align: center;
 }
 .logo span {
     font-size: 15px;
@@ -43,6 +44,9 @@ body {
     display: inline-block;
     margin: 0 0 0 12px;
 }
+.shedule {
+    display: none;
+}
 .shedule span {
     display: inline-block;
 }
@@ -51,6 +55,9 @@ body {
 }
 .shedule span:first-child {
     border-right: 1px solid grey;
+}
+.contacts {
+    display: none;
 }
 .contacts span {
     display: block;
@@ -105,7 +112,7 @@ input[type="search"] {
 }
 
 .basket {
-    /*display: none;*/
+    display: none;
     position: relative;
 }
 .basket a {
@@ -138,15 +145,31 @@ input[type="search"] {
 .menu-grid a {
     text-decoration: none;
     text-transform: capitalize;
-    padding: 0 4px 1px 4px;
+    /* padding: 0 4px 1px 4px; */
+    width: 100%;
+    display: block;
 }
 .menu-grid a:hover {
     background: red;
 }
+.mobile-basket {
+    float: right;
+}
 
 
-@media screen and (min-width: 480px) {}
-@media screen and (min-width: 640px) {}
+@media screen and (min-width: 480px) {
+    .logo span {
+        display: block;
+    }
+}
+@media screen and (min-width: 640px) {
+    .logo a {
+        display: inline-block;
+    }
+    .logo span {
+        display: inline-block;
+    }
+}
 @media screen and (min-width: 800px) {
     .mobile-menu-btn {
         display: none;
@@ -165,5 +188,19 @@ input[type="search"] {
     .menu ul li {
         display: inline-block;
     }
+    .basket {
+        display: block;
+    }
+    .shedule {
+        display: block;
+    }
+    .contacts {
+        display: block;
+    }
+    .menu-grid a {
+
+     padding: 0 4px 1px 4px; 
+
+}
 
 }

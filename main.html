@@ -1,13 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="#">
-	<link rel="stylesheet" href="#">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="vendor/slick.css">
+    <link rel="stylesheet" href="vendor/slick-theme.css">
+    <title>main</title>
 </head>
 <body>
-	
+<div class="container">
+    <!--<div class="main">-->
+        <!--<div class="promo">-->
+            <!--<div class="overlay">-->
+                <!--<span class="switz-logo"></span>-->
+                <!--<h3>Мы продаём то что купили бы сами</h3>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="main-slider">
+        <h2>Акции</h2>
+        <div class="slider">
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+            <div class="picture">
+                <span class="label">новинка</span>
+                <img src="uploads_html/slider-item.png" alt=""/>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="vendor/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.slider').slick({
+            slidesToShow:4,
+            slidesToScroll:1,
+            dots: true
+        });
+    });
+</script>
 </body>
 </html>

@@ -1,0 +1,52 @@
+.container {
+    margin:50px auto;
+    max-width:1000px;
+    min-width:320px;
+    width:100%;
+}
+.main {
+    width:545px;
+    margin:0 auto;
+}
+.promo {
+    background: url(../uploads_html/main-promo.jpg)no-repeat;
+    padding:30% 0;
+    position: relative;
+
+}
+.overlay {
+    background-color: rgba(255,255,255,0.8);
+    position: absolute;
+    top:15px;
+    right:15px;
+
+}
+.overlay h3 {
+    display: inline-block;
+    font-family:"Century Gothic";
+    font-size:25px;
+    margin:20px 40px 20px 20px;
+}
+.switz-logo {
+    background: url(../img_css/switz-log.png)no-repeat;
+    width: 59px;
+    height: 61px;
+}
+@font-face {
+    font-family:"Century Gothic";
+    src: url("../fonts/GOTHIC.TTF");
+}
+.main-slider {
+    text-align: center;
+    font-family:"Century Gothic";
+    font-size: 24px;
+}
+.slider .picture {
+    width: 190px;
+    display: inline-block;
+}
+.label  {
+    background: red;
+    color: #ffffff;
+    font-size: 10px;
+}

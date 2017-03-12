@@ -1,3 +1,10 @@
+/* tech-title */
+
+.tech-title {
+    background: black;
+    color: white;
+}
+
 /* colorizer */
 .col-sidebar, .breadcrumbs-wrapper { background: white; }
 
@@ -7,7 +14,7 @@ div {padding: 0;}
 /* common */
 
 body {
-    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'CenturyGothicRegular', sans-serif;
     font-size: 10px;
     line-height: 1;
 }
@@ -25,8 +32,9 @@ a {
 
 .breadcrumbs-wrapper {
     border-bottom: solid 1px #d7d7d7;
-    padding: 1%;
+    padding: 1.3% 1% 1.2%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .breadcrumbs {
@@ -39,7 +47,17 @@ a {
 }
 
 .breadcrumbs a {
-    margin: 0 2%;
+    white-space: nowrap;
+}
+
+.breadcrumbs a::before {
+    content: '→';
+    display: inline;
+    margin: 0 1.6%;
+}
+
+.breadcrumbs a:first-child::before {
+    content: none;
 }
 
 .main-title {
@@ -49,6 +67,7 @@ a {
     text-align: center;
     width: 100%;
     flex: 0 0 100%;
+    letter-spacing: -1px;
 }
 
 /* sidebar */
@@ -60,20 +79,24 @@ a {
 .sidebar-title {
     font-size: 1.8em;
     color: #151515;
+    line-height: 1.25;
 }
 
 .sidebar-title a {
     display: block;
-    padding: 2%;
+    padding: 1.7% 3.5% 2.3% 3.5%;
+}
+
+.submenu-content {
+    padding-bottom: 1%;
 }
 
 .side-submenu .submenu-content {
     display: none;
-    padding-right: 5%;
 }
 
 .sidebar .subgroup {
-    padding: 1% 0 0 7%;
+    margin-top: 1%;
 }
 
 .sidebar p, .subgroup-title {
@@ -82,11 +105,15 @@ a {
 }
 
 .subgroup-title {
-    padding: 1% 0;
+    padding: 0.7% 3% 0.7% 9.75%;
 }
 
 .side-menu p {
-    padding: 1% 0 1% 5%;
+    padding: 0.7% 3% 0.7% 17.5%;
+}
+
+.side-menu p:hover, .subgroup-title:hover {
+    background: #d6d6d6;
 }
 
 .side-submenu.active .sidebar-title {
@@ -109,9 +136,9 @@ a {
 }
 
 .requisites {
-    display: none;
     text-align: center;
     border-top: solid 1px #d7d7d7;
+    padding: 1% 4%;
 }
 
 .requisites p {
@@ -133,23 +160,32 @@ a {
         flex-basis: 30%;
     }
 
-    .requisites {
-        display: block;
-    }
-
-    .sidebar-title a {
-        padding: 3%;
-    }
-
     .sidebar .subgroup {
-        padding: 2% 0 2% 7%;
+        margin-top: 8.6%;
+    }
+
+    .sidebar .subgroup:first-child {
+        margin-top: 4.2%;
+    }
+
+    .submenu-content {
+        padding-bottom: 3.9%;
+    }
+
+    .requisites {
+        margin-top: 4.7%;
+        padding: 7.7% 4%;
+    }
+
+    .requisites .sidebar-title {
+        margin-bottom: 5.5%;
     }
 }
 
 @media screen and (min-width: 800px) {
     .breadcrumbs {
-        width: 21%;
-        flex-basis: 21%;
+        width: 79%;
+        flex-basis: 79%;
     }
 
     .main-title {

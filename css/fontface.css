@@ -16,3 +16,12 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: "MyriadProCondRegular";
+    src: url("../fonts/MyriadProCondRegular/MyriadProCondRegular.eot");
+    src: url("../fonts/MyriadProCondRegular/MyriadProCondRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProCondRegular/MyriadProCondRegular.woff") format("woff"),
+    url("../fonts/MyriadProCondRegular/MyriadProCondRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

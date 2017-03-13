@@ -1,0 +1,83 @@
+/* tech-title */
+
+.tech-title {
+    background: black;
+    color: white;
+}
+
+/* colorizer */
+.col-main { background: white; }
+
+/* sizer */
+div {padding: 0;}
+
+/* common */
+
+body {
+    font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', 'CenturyGothicRegular', sans-serif;
+    font-size: 10px;
+    line-height: 1;
+}
+
+.title {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* promo */
+
+.col-main {
+    padding: 1.2% 2% 0.8% 2.4%;
+}
+
+.promo {
+    background: url('../tech-img/promo-bg.jpg') top right/cover no-repeat;
+    padding: 4.25% 0 30.2%;
+}
+
+.promo-title {
+    font-family: 'MyriadProCondRegular', sans-serif;
+    background: url('../tech-img/swizerland-logo.png') center right 4.75%/auto 77% no-repeat, rgba(255, 255, 255, 0.28);
+    padding: 3.6% 17% 2.65% 2.6%;
+    float: right;
+    font-size: 2.5em;
+    line-height: 0.8em;
+    color: #000000;
+    max-width: 48.65%;
+    min-width: 250px;
+}
+
+/* article */
+
+.main-article {
+
+}
+
+.main-article .title {
+    font-size: 1.8em;
+    color: #e1223b;
+    margin: 3.8% 0 2.2% -1.9%;
+}
+
+.main-article p {
+    font-size: 1.4em;
+    line-height: 1.25;;
+    color: #434342;
+}
+
+.main-article>p {
+    text-indent: 1.1em;
+}
+
+.main-article header {
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+.main-article footer {
+    margin-top: 3%;
+}

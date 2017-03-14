@@ -1,0 +1,50 @@
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	background: #fff;
+	line-height: 1.3;
+}
+.container {
+	min-width: 300px;
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+}
+.main-slider {
+	text-align: center;
+}
+.picture {
+	position: relative;
+}
+.type {
+	color: #434342;
+	font-size: 18px;
+	font-family: 'Century Gothic';
+}
+.picture p {
+	color: #434342;
+	font-size: 11px;
+	font-family: 'Century Gothic';
+}
+
+.label {
+	color: #fff;
+	font-size: 10px;
+	font-family: 'Century Gothic';
+	padding: 4px 8px;
+	background: #e1223c;
+	-webkit-border-bottom-right-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+	border-bottom-right-radius: 9px;
+	position: absolute;
+	top: 10;
+	left: 85;
+}
+.slick-slide {
+	outline: none;
+	color: #cacaca;
+}
+.slick-slide:hover {
+	color: #d9213a;
+}

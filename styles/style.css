@@ -1,52 +1,132 @@
 .container {
-    margin:50px auto;
-    max-width:1000px;
-    min-width:320px;
-    width:100%;
+    margin: 50px auto;
+    max-width: 1000px;
+    min-width: 320px;
+    width: 100%;
 }
-.main {
-    width:545px;
-    margin:0 auto;
-}
-.promo {
-    background: url(../uploads_html/main-promo.jpg)no-repeat;
-    padding:30% 0;
-    position: relative;
 
-}
-.overlay {
-    background-color: rgba(255,255,255,0.8);
-    position: absolute;
-    top:15px;
-    right:15px;
-
-}
-.overlay h3 {
-    display: inline-block;
-    font-family:"Century Gothic";
-    font-size:25px;
-    margin:20px 40px 20px 20px;
-}
-.switz-logo {
-    background: url(../img_css/switz-log.png)no-repeat;
-    width: 59px;
-    height: 61px;
-}
 @font-face {
-    font-family:"Century Gothic";
+    font-family: "Century Gothic";
     src: url("../fonts/GOTHIC.TTF");
 }
-.main-slider {
-    text-align: center;
-    font-family:"Century Gothic";
-    font-size: 24px;
+
+
+/*.title {*/
+    /*height: 50px;*/
+    /*float: right;*/
+    /*display: block;*/
+    /*width: 20%;*/
+/*}*/
+
+.main {
+    display: flex;
 }
-.slider .picture {
-    width: 190px;
-    display: inline-block;
+
+/*.sidebar {*/
+    /*width: 20%;*/
+    /*background: red;*/
+/*}*/
+
+.services {
+    width: 79%;
+    position: relative;
+    font-family: "Century Gothic";
+    border-top: 1px solid #434342;
+    border-bottom: 1px solid #434342;
 }
-.label  {
-    background: red;
-    color: #ffffff;
-    font-size: 10px;
+.services:last-child {
+    margin-bottom: 0;
 }
+.service-item {
+    padding-left: 100px;
+    margin-bottom: 66px;
+}
+.service-item h3 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+.service-item h3:hover {
+    color: #e1223b;
+}
+
+.service-item p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.ic {
+    background: url(../img_css/service.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 20px;
+}
+
+.ic-answers {
+    background-position: -7px 0;
+    top: 5%;
+}
+
+.ic-service {
+    background-position: -7px 27%;
+    top: 24%;
+}
+
+.ic-warranty {
+    background-position: -7px 52%;
+    top: 41%;
+}
+
+.ic-downloads {
+    background-position: -4px 81%;
+    bottom: 31%;
+}
+
+.ic-video {
+    background-position: -4px 108%;
+    bottom: 11%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .services {
+        width:100%;
+    }
+    .service-item {
+        padding:60px 40px 0 40px ;
+        margin-bottom: 0;
+    }
+    .ic {
+        left:11%;
+    }
+    .ic-answers {
+        top: 1%;
+    }
+
+    .ic-service {
+        top: 21%;
+    }
+
+    .ic-warranty {
+        top: 41%;
+    }
+    .ic-downloads {
+
+        bottom: 33%;
+    }
+    .ic-video {
+        bottom: 12%;
+    }
+
+
+}@media screen and (min-width: 480px) and (max-width: 640px) {
+    .services {
+        width:100%;
+    }
+
+}
+@media screen and (min-width: 640px) and (max-width: 800px){
+    .services {
+        width:100%;
+    }
+
+}
+

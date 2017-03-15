@@ -179,12 +179,19 @@ input[type="search"] {
     .header-col-3 {
         float: left;
     }
+     .header-col-1 {
+        width: 48% ;
+     }
+
+
     .header-col-2 {
         padding: 1px 0;
+        width: 24% ;
     }
-    .menu ul li {
-        display: inline-block;
+        .header-col-3 {
+        width: 28% ;
     }
+    
     
     .shedule {
         display: block;
@@ -226,7 +233,7 @@ input[type="search"] {
     }
     .contacts {
         display: block;
-        padding: 7px 0 0 70px;
+        padding: 7px 0 0 64px;
     }
     .basket {
         display: block;
@@ -241,7 +248,7 @@ input[type="search"] {
         display: inline-block;
         position: absolute;
         top: -4px;
-        right: 149px;
+        right: 63%;
     }
     .basket span {
         display: block;
@@ -260,15 +267,21 @@ input[type="search"] {
         padding: 6px 0px 7px 4px;
 
     }
-    .menu-grid li {
-        padding: 0px 39px 0 0;
+    .menu-grid li:first-child {
+        margin-left: 11%;
     }
+    .menu-grid li:last-child {
+        padding: 0;
+    }
+    .menu-grid li {
+        padding: 0px 4% 0 0;
+        display: inline-block;
+    }
+
     .menu-wrap {
             padding: 0;
         margin: 10px 0 0 0;
     }
-    .menu {
-        padding: 0 0 0 112px;
-    }
+
 
 }

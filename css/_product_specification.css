@@ -1,0 +1,131 @@
+/*...................заголовок.....................*/
+.specification_title {
+	border-bottom: 1px solid #d7d7d7;
+	width: 100%;
+}
+.specification_title h3 {
+	background: #d7d7d7;
+	font-size: 14px;
+	color: #434342;
+	margin: 0px 0px 0px 16px;
+	padding: 11px 19px 7px 14px;
+	font-weight: normal;
+	text-transform: capitalize;
+	display: inline-block;
+}
+
+
+/*...................блок описание.....................*/
+
+.item-spec {
+	width: 100%;
+}
+.item-spec p {
+	font-size: 12px;
+	color: #434342;
+	line-height: 1.25;
+	margin: 14px 0 32px 0;
+}
+.downloads h4 {
+	font-size: 18px;
+	color: #968c85;
+	margin: 15px 0 31px 68px;
+	padding: 0;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+.download-item {
+	border-bottom: 1px solid #d7d7d7;
+	margin: 0 0 14px 26px;
+	width: 50%;
+}
+.download-item a {
+	display: block;
+	position: relative;
+	text-decoration: none;
+	font-size: 14px;
+	color: #434342;
+	padding: 0 0 0 27px;
+	margin: 0 0 8px 26px;
+	
+}
+.download-item a::before {
+	content: '';
+	position: absolute;
+	background: url(../images/ic-specification.png);
+	top: -3px;
+	left: -8px;
+	width: 21px;
+	height: 25px;
+	display: block;
+}
+.download-item a span {
+	color: #968c85;
+}
+
+
+/*....................блок характеристик...............*/
+.characteristics-block {
+	width: 100%;
+	margin: 42px 0 0 0;
+}
+.characteristics-block ul{
+	padding:  0;
+
+}
+.characteristics-block li{
+	float:left;
+	display:inline;
+	position: relative;	
+	font-size: 12px;
+	color: #434342;
+	padding: 0 0 4px 0;
+}
+.characteristics-block li:nth-child(2n+1) 	{
+	width: 58%;
+}
+.characteristics-block li:nth-child(2n) {
+	border-bottom: 0;
+	width: 30%;
+}
+.characteristics-block li:nth-child(2n+1):after {
+	content: "";
+	position: absolute;
+	border-bottom: 1px dotted #d7d7d7;
+	display: block;
+	bottom: 7px;
+	padding: 1px 50%;
+	box-sizing: border-box;
+}
+.characteristics-block li span {
+	background: white;
+	position: relative;
+	z-index: 2;
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+
+}
+@media screen and (min-width: 640px) {
+
+}
+@media screen and (min-width: 800px) {
+	.characteristics-block {
+		width: 70%;
+	}
+	.item-spec {
+		float: left;
+		width: 49%;
+	}
+	.downloads {
+		float: left;
+		width: 26%;
+	}
+	.download-item {
+		width: 100%;
+	}
+
+}

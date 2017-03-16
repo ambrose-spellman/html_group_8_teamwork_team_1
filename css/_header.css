@@ -8,13 +8,13 @@ body {
     padding: 0 15px;
     box-sizing: border-box;
 }
-
 .header-col-1{}
 .header-col-2{
     padding: 10px 0;
 }
-.header-col-3{}
+.header-col-3{
 
+}
 .logo {
     text-align: center;
 }
@@ -49,21 +49,15 @@ body {
     margin: 0 0 0 12px;
 }
 .shedule {
-    display: none;
-    
+    display: none;    
 }
-
 .search {
     width: 100%;
     position: relative;
-
 }
-
 .search input {
     border: none;
 }
-
-
 .search .input {
     width: 100%;
     padding: 0px 37px 0px 14px;
@@ -75,14 +69,11 @@ body {
     font-size: 16px;
     font-style: italic;
 }
-
 .search .input:focus {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
     background: #E8E8E8;
     color: #333;
 }
-
-
 .search .submit {
     position: absolute;
     top: 0px;
@@ -92,21 +83,17 @@ body {
     cursor: pointer;
     background: url(../images/ic-search.png) 50% no-repeat;
 }
-
 .search .submit:hover {
     opacity: 0.8;
 }
-
-input[type="search"] {
+/*input[type="search"] {
     -webkit-appearance: none;
-}
+}*/
 .contacts {
     display: none;
-
 }
 .basket {
-    display: none;
-    
+    display: none;    
 }
 
 .menu-wrap {
@@ -121,7 +108,6 @@ input[type="search"] {
     list-style: none;
     margin:0;
     padding: 0;
-
 }
 .menu-grid li {
     padding: 2px 5px;
@@ -182,17 +168,13 @@ input[type="search"] {
      .header-col-1 {
         width: 48% ;
      }
-
-
     .header-col-2 {
         padding: 1px 0;
         width: 24% ;
     }
-        .header-col-3 {
+    .header-col-3 {
         width: 28% ;
-    }
-    
-    
+    }    
     .shedule {
         display: block;
         text-align: center;
@@ -213,7 +195,6 @@ input[type="search"] {
     .shedule span:last-child {    
         padding: 0px 0 0 18px;
     }
-
     .search {
         padding: 6px 0 0 10px; 
     }
@@ -221,11 +202,8 @@ input[type="search"] {
         width: 100%;
     }
     .search .submit {
-
         top: 3px;
-
     }
-
     .contacts span {
         display: block;
         font-size: 16px;
@@ -263,21 +241,20 @@ input[type="search"] {
         padding-bottom: 3px
     }
     .menu-grid a {
-
         padding: 6px 0px 7px 4px;
-
     }
-    .menu-grid li:first-child {
-        margin-left: 11%;
-    }
-    .menu-grid li:last-child {
-        padding: 0;
-    }
-    .menu-grid li {
+     .menu-grid li {
         padding: 0px 4% 0 0;
         display: inline-block;
     }
-
+    
+    .menu-grid li:first-child {
+        margin-left: 11%;
+    }
+.menu-grid li:last-of-type {
+        padding-right:  0;
+    }
+    
     .menu-wrap {
             padding: 0;
         margin: 10px 0 0 0;

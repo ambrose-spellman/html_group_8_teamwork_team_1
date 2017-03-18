@@ -101,7 +101,7 @@ a {
     height: auto;
 }
 
-@media screen and (min-width: 640px) and (max-width: 800px) {
+@media screen and (min-width: 640px) {
     .banner {
         margin-left: 5%;
         margin-top: 0;
@@ -117,6 +117,15 @@ a {
         padding: 1% 0.5% 1% 0;
         align-content: flex-start;
         border-top: none;
+        margin-top: 0;
+    }
+
+    .banner {
+        margin-top: 8%;
+        margin-left: 0;
+    }
+
+    .banner:first-child {
         margin-top: 0;
     }
 }

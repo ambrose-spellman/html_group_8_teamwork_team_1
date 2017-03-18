@@ -159,6 +159,8 @@ body {
     }
     .displaynone {
         display: block;
+        text-align: center;
+        margin: 0 18px 0 0;
     }
     .header-col-1,
     .header-col-2,
@@ -241,17 +243,17 @@ body {
         padding-bottom: 3px
     }
     .menu-grid a {
-        padding: 6px 0px 7px 4px;
+        padding: 6px 3px 7px 4px;
     }
      .menu-grid li {
-        padding: 0px 4% 0 0;
+        padding: 0px 3.7% 0 0;
         display: inline-block;
     }
     
-    .menu-grid li:first-child {
+/*    .menu-grid li:first-child {
         margin-left: 11%;
-    }
-.menu-grid li:last-of-type {
+    }*/
+    .menu-grid li:last-of-type {
         padding-right:  0;
     }
     

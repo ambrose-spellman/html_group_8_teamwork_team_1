@@ -10,12 +10,11 @@
     src: url("../fonts/GOTHIC.TTF");
 }
 
-
 /*.title {*/
-    /*height: 50px;*/
-    /*float: right;*/
-    /*display: block;*/
-    /*width: 20%;*/
+/*height: 50px;*/
+/*float: right;*/
+/*display: block;*/
+/*width: 20%;*/
 /*}*/
 
 .main {
@@ -23,8 +22,8 @@
 }
 
 /*.sidebar {*/
-    /*width: 20%;*/
-    /*background: red;*/
+/*width: 20%;*/
+/*background: red;*/
 /*}*/
 
 .services {
@@ -34,17 +33,21 @@
     border-top: 1px solid #434342;
     border-bottom: 1px solid #434342;
 }
+
 .services:last-child {
     margin-bottom: 0;
 }
+
 .service-item {
     padding-left: 100px;
     margin-bottom: 66px;
 }
+
 .service-item h3 {
     font-size: 18px;
     margin-top: 30px;
 }
+
 .service-item h3:hover {
     color: #e1223b;
 }
@@ -86,17 +89,127 @@
     background-position: -4px 108%;
     bottom: 11%;
 }
-@media screen and (min-width: 320px) and (max-width: 480px){
+
+/*product-card*/
+.product-card {
+    width: 40%;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 15px 0 9px 0;
+    font-family: 'Century Gothic';
+}
+
+.product-card:before {
+    content: 'новинка';
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Century Gothic';
+    padding: 3px 12px;
+    background: #e1223c;
+    -webkit-border-bottom-right-radius: 9px;
+    -moz-border-radius-bottomright: 9px;
+    border-bottom-right-radius: 9px;
+    position: absolute;
+    top: 72px;
+    left: 199px;
+    z-index: 10;
+}
+
+.card-slider {
+    width: 32%;
+    margin: 29px 0 0 30px;
+}
+
+.slider-main {
+    margin-left: 50px;
+}
+
+.slider-nav {
+    margin-left: 40px;
+}
+.slider-nav img {
+    width: 45%;
+    margin: 11px;
+}
+.colors {
+    padding: 5px 0 0 10px;
+}
+
+.product-card h4 {
+    margin: 33px 0 0 5px;
+    font-size: 12px;
+}
+
+.circle {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.circle:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 9px 9px 9px;
+    border-color: transparent transparent transparent transparent;
+    position: absolute;
+    bottom: -12px;
+    left: 2px;
+}
+
+.c-red {
+    background: #f84040;
+}
+
+.c-green {
+    background: #e8ff7c;
+}
+
+.c-blue {
+    background: #7cbaff;
+}
+
+.c-yellow {
+    background: #fbf8c5;
+}
+
+.circle:hover::before {
+    border-color: transparent transparent #c4c4c4 transparent;
+}
+
+.zoom {
+    float: right;
+    position: relative;
+}
+
+.zoom:after {
+    content: '';
+    background: url("../img_css/search.png") no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    width: 35px;
+    height: 35px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
     .services {
-        width:100%;
+        width: 98%;
     }
+
     .service-item {
-        padding:60px 40px 0 40px ;
+        padding: 60px 40px 0 40px;
         margin-bottom: 0;
     }
+
     .ic {
-        left:11%;
+        left: 11%;
     }
+
     .ic-answers {
         top: 1%;
     }
@@ -108,24 +221,83 @@
     .ic-warranty {
         top: 41%;
     }
+
     .ic-downloads {
 
         bottom: 33%;
     }
+
     .ic-video {
         bottom: 12%;
     }
 
+    .product-card {
+        width: 100%;
+    }
 
-}@media screen and (min-width: 480px) and (max-width: 640px) {
-    .services {
-        width:100%;
+    .card-slider {
+        width: 90%;
+        margin: 29px 0 0 15px;
+    }
+
+    .product-card:before {
+        content: 'новинка';
+        top: 65px;
+        left: 8px;
+        z-index: 10;
+    }
+    .slider-nav {
+        margin-left:0;
     }
 
 }
-@media screen and (min-width: 640px) and (max-width: 800px){
+
+@media screen and (min-width: 480px) and (max-width: 640px) {
     .services {
-        width:100%;
+        width: 100%;
+    }
+    .product-card {
+        width: 100%;
+    }
+
+    .card-slider {
+        width: 90%;
+        margin: 29px 0 0 15px;
+    }
+
+    .product-card:before {
+        content: 'новинка';
+        top: 65px;
+        left: 8px;
+        z-index: 10;
+    }
+    .slider-nav {
+        margin-left:0;
+    }
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 800px) {
+    .services {
+        width: 100%;
+    }
+    .product-card {
+        width: 60%;
+    }
+
+    .card-slider {
+        width: 60%;
+        margin: 29px 0 0 15px;
+    }
+
+    .product-card:before {
+        content: 'новинка';
+        top: 65px;
+        left: 8px;
+        z-index: 10;
+    }
+    .slider-nav {
+        margin-left:0;
     }
 
 }

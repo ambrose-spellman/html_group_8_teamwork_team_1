@@ -107,10 +107,13 @@ body {
 
 
     .footer .menu-grid li {
-        padding: 0px 34px 0 0;
+        padding: 0 3.5% 0 0;
     }
-    .footer .menu {
-        padding: 0 0 0 130px;
+    .footer .menu-grid li:first-child {
+        margin-left: 13%;
+    }
+    .footer .menu-grid li:last-child {
+        padding: 0;
     }
     
 

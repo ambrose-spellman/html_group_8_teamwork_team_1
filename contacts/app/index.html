@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="vieport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>контакты</title>
+</head>
+<body>
+	<div class="container">
+		<div class="requisites schedule">
+			<p class="title-red"> Время работы </p>
+			<p>Понедельник - Пятница</p>
+			<p>с 8-00 до 20-00</p>
+			<p>Суббота  - Воскресение</p>
+			<p>с 9-00 до 17-00</p>
+		</div>
+		<div class="requisites phone clearfix">
+			<p class="title-red">Телефоны</p>
+			<p>8 (495) 510 27 27</p>
+			<p>8 (800) 100 05 56 </p>
+		</div>
+		<div class="requisites adress">
+			<p class="title-red">Адрес</p>
+			<p >г Минск ул. Энтузиастов 84</p>
+			<p>ИНН 3316007270, кор. счёт 30101810200000000716, Р/с 40703810612260000004</p>
+		</div>
+		<div class="map_wrap">
+			<div id="map" class="map" ></div>
+		</div>
+		
+	<script>
+        function initMap() {
+            var minsk = {lat: 53.912741, lng: 27.7673183};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: minsk
+            });
+            var marker = new google.maps.Marker({
+                position: minsk,
+                map: map
+            });
+        }
+	</script>
+	<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwWFSLHfjwENysYhQX4CUjJ1oyB_69g84&callback=initMap">
+	</script>
+	</div>
+</body>
+</html>

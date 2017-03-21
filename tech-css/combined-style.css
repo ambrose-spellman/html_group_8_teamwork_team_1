@@ -67,7 +67,7 @@ a {
 .col-main {
     width: 100%;
     flex: 0 0 100%;
-    border-left: 1px solid #d7d7d7;
+    
 }
 
 .col-banners {
@@ -100,6 +100,34 @@ a {
     display: block;
     width: 198px;
     height: auto;;;;
+}
+.product-row-flex {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.product-row-flex::after {
+    content: '';
+    display: table;
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.product-card-wrap {
+    width: 100%;
+    flex: 0 0 100%;
+}
+.parametr_wrap {
+    width: 100%;
+    flex: 0 0 100%;
+}
+..product-card-wrap,
+.parametr_wrap {
+    float: left;
 }
 
 /**********
@@ -426,7 +454,7 @@ a {
  * contacts *
  ************/
 
-.contacts-page {
+ .contacts-page {
     border-bottom: 1px dashed #ededed;
     text-align: center;
 }
@@ -446,7 +474,7 @@ a {
     background-position: center top;
     background-repeat: no-repeat;
 }
- .adress p {
+.adress p {
     font-size: 14px;
     font-family: 'Century Gothic';
     margin: 0;
@@ -464,11 +492,398 @@ a {
     height: 300px;
 }
 
+/****************
+ * product card *
+ ****************/
+
+ .product-card {
+    width: 100%%;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 15px 0 9px 0;
+    font-family: 'Century Gothic';
+    position: relative;
+}
+
+.product-card:before {
+    content: 'новинка';
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Century Gothic';
+    padding: 3px 12px;
+    background: #e1223c;
+    -webkit-border-bottom-right-radius: 9px;
+    -moz-border-radius-bottomright: 9px;
+    border-bottom-right-radius: 9px;
+    position: absolute;
+    top: 72px;
+    left: 199px;
+    z-index: 10;
+}
+
+.card-slider {
+    width: 100%;
+    margin: 29px 0 0 30px;
+}
+
+.slider-main {
+    margin-left: 50px;
+}
+
+.slider-nav {
+    margin-left: 40px;
+}
+.slider-nav img {
+    width: 45%;
+    margin: 11px;
+}
+.colors {
+    padding: 5px 0 0 10px;
+}
+
+.product-card h4 {
+    margin: 33px 0 0 5px;
+    font-size: 12px;
+}
+
+.circle {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+.circle:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 9px 9px 9px;
+    border-color: transparent transparent transparent transparent;
+    position: absolute;
+    bottom: -12px;
+    left: 2px;
+}
+
+.c-red {
+    background: #f84040;
+}
+
+.c-green {
+    background: #e8ff7c;
+}
+
+.c-blue {
+    background: #7cbaff;
+}
+
+.c-yellow {
+    background: #fbf8c5;
+}
+
+.circle:hover::before {
+    border-color: transparent transparent #c4c4c4 transparent;
+}
+
+.zoom {
+    float: right;
+    position: relative;
+}
+
+.zoom:after {
+    content: '';
+    background: url("../img_css/search.png") no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    width: 35px;
+    height: 35px;
+}
+
+/*******************************
+ * product short specofocation *
+ *******************************/
+
+ .parametr_wrap {
+    padding: 10px;
+    background: url(../parameter/images/background.png) top left repeat;
+    width: 100%
+}
+.parametr {
+    background: #fff;
+}
+.parametr_title {
+    font-size: 18px;
+    font-family: 'Century Gothic';
+    margin: 0;
+    color: #434342;
+}
+.parametr_decription {
+    font-size: 14px;
+    font-family: 'Century Gothic';
+    margin: 0;
+    color: #151515;
+}
+.description {
+    font-size: 11px;
+    font-family: 'Century Gothic';
+    margin: 0;
+    color: #423c37;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 20px;
+}
+.smart {
+    font-size: 12px;
+    font-family: 'Century Gothic';
+    margin: 0;
+    color: #423c37;
+}
+.smart span {
+    font-size: 12px;
+    font-family: 'Century Gothic';
+    margin: 0;
+    color: #e1223c;
+}
+.parametr .characteristics-block {
+    width: 100%;
+    margin: 2px 0 0 0;
+    border-bottom: 1px solid #d7d7d7;
+}
+.parametr .characteristics-block li:nth-child(2n+1)   {
+    width: 72%;
+}
+.parametr .characteristics-block li:nth-child(2n) {
+    border-bottom: 0;
+    width: 28%;
+}
+
+.share {
+    float: left;
+    background: #edecec;
+    border-top: 1px solid #d7d7d7;
+    border-radius: 0 0 20px 0;
+    color: #434342;
+    font-size: 14px;
+    font-family: 'Century Gothic';
+    margin: 0 7px 0 0;
+    padding: 5px 10px 5px 7px;
+    text-decoration: none;
+}
+.share::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    background-image: url(../images/round.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-right: 3px;
+}
+
+.price_wrap {
+    border-top: 1px solid #d7d7d7; 
+}
+.price {
+    font-size: 24px;
+    font-family: 'Century Gothic';
+    margin: 0;
+    color: #968c85;
+    display: inline-block;
+}
+.buy {
+    float: right;
+    background: #edecec;
+    border-radius: 0 0 0 20px;
+    color: #434342;
+    font-size: 18px;
+    font-family: 'Century Gothic';
+    margin: 0 7px 0 0;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+
+/*************************
+ * product specofocation *
+ *************************/
+
+
+ .specification_title {
+    border-bottom: 1px solid #d7d7d7;
+    width: 100%;
+}
+.specification_title h3 {
+    background: #d7d7d7;
+    font-size: 14px;
+    color: #434342;
+    margin: 0px 0px 0px 16px;
+    padding: 11px 19px 7px 14px;
+    font-weight: normal;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+.item-spec {
+    width: 100%;
+}
+.item-spec p {
+    font-size: 12px;
+    color: #434342;
+    line-height: 1.25;
+    margin: 14px 0 32px 0;
+}
+.downloads h4 {
+    font-size: 18px;
+    color: #968c85;
+    margin: 15px 0 31px 68px;
+    padding: 0;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.download-item {
+    border-bottom: 1px solid #d7d7d7;
+    margin: 0 0 14px 26px;
+    width: 50%;
+}
+.download-item a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    font-size: 14px;
+    color: #434342;
+    padding: 0 0 0 27px;
+    margin: 0 0 8px 26px;
+    
+}
+.download-item a::before {
+    content: '';
+    position: absolute;
+    background: url(../images/ic-specification.png);
+    top: -3px;
+    left: -8px;
+    width: 21px;
+    height: 25px;
+    display: block;
+}
+.download-item a span {
+    color: #968c85;
+}
+
+.characteristics-block {
+    width: 100%;
+    margin: 42px 0 0 0;
+}
+.characteristics-block ul{
+    padding:  0;
+
+}
+.characteristics-block li{
+    float:left;
+    display:inline;
+    position: relative; 
+    font-size: 12px;
+    color: #434342;
+    padding: 0 0 4px 0;
+}
+.characteristics-block li:nth-child(2n+1)   {
+    width: 75%;
+}
+.characteristics-block li:nth-child(2n) {
+    border-bottom: 0;
+    width: 25%;
+}
+.characteristics-block li:nth-child(2n+1):after {
+    content: "";
+    position: absolute;
+    border-bottom: 1px dotted #d7d7d7;
+    display: block;
+    bottom: 7px;
+    padding: 1px 50%;
+    box-sizing: border-box;
+}
+.characteristics-block li span {
+    background: white;
+    position: relative;
+    z-index: 2;
+}
+
+
+/************
+ * feedback *
+ ************/
+
+ .services {
+    width: 100%;
+    position: relative;
+    font-family: "Century Gothic";
+    /*border-top: 1px solid #434342;*/
+    /*    border-bottom: 1px solid #434342;*/
+}
+
+.services:last-child {
+    margin-bottom: 0;
+}
+
+.service-item {
+    padding-left: 100px;
+    margin-bottom: 66px;
+}
+
+.service-item h3 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.service-item h3:hover {
+    color: #e1223b;
+}
+
+.service-item p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.ic {
+    background: url(../img_css/service.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 20px;
+}
+
+.ic-answers {
+    background-position: -7px 0;
+    top: 5%;
+}
+
+.ic-service {
+    background-position: -7px 27%;
+    top: 24%;
+}
+
+.ic-warranty {
+    background-position: -7px 52%;
+    top: 41%;
+}
+
+.ic-downloads {
+    background-position: -4px 81%;
+    bottom: 31%;
+}
+
+.ic-video {
+    background-position: -4px 108%;
+    bottom: 11%;
+}
+
 /***************
  * main slider *
  ***************/
 
-.main-slider {
+ .main-slider {
     text-align: center;
     border-top: 1px solid #d7d7d7;
     width: 98%;
@@ -582,7 +997,7 @@ a {
  **********/
 
 
-.footer .menu-grid li {
+ .footer .menu-grid li {
     padding: 2px 5px;
 }
 
@@ -616,7 +1031,6 @@ a {
     display: block;
     font-size: 14px;
     color: #423c37;
-    border-right: 1px solid #423c37;;
 }
 .footer-contacts span {
     display: block;
@@ -650,6 +1064,58 @@ a {
     .logo span {
         display: block;
     }
+
+    .product-card {
+        width: 100%;
+    }
+
+    .card-slider {
+        width: 90%;
+        margin: 29px 0 0 15px;
+    }
+
+    .product-card:before {
+        content: 'новинка';
+        top: 65px;
+        left: 8px;
+        z-index: 10;
+    }
+    .slider-nav {
+        margin-left:0;
+    }
+    .services {
+        width: 98%;
+    }
+
+    .service-item {
+        padding: 60px 40px 0 40px;
+        margin-bottom: 0;
+    }
+
+    .ic {
+        left: 11%;
+    }
+
+    .ic-answers {
+        top: 1%;
+    }
+
+    .ic-service {
+        top: 21%;
+    }
+
+    .ic-warranty {
+        top: 41%;
+    }
+
+    .ic-downloads {
+
+        bottom: 33%;
+    }
+
+    .ic-video {
+        bottom: 12%;
+    }
 }
 
 @media screen and (min-width: 640px) {
@@ -667,6 +1133,7 @@ a {
         width: 75%;
         flex-basis: 75%;
     }
+
 
     .banner {
         width: 30%;
@@ -722,6 +1189,35 @@ a {
         flex-basis: 50%;
         width: 50%;
     }
+
+
+
+
+
+
+
+
+
+
+    .product-card {
+        width: 100%;
+    }
+
+    .card-slider {
+        width: 90%;
+        margin: 29px 0 0 15px;
+    }
+
+    .product-card:before {
+        content: 'новинка';
+        top: 65px;
+        left: 8px;
+        z-index: 10;
+    }
+    .slider-nav {
+        margin-left:0;
+    }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -736,6 +1232,7 @@ a {
         flex-basis: 56.7%;
         box-sizing: border-box;
         padding: 9px 0px 0px 26px;
+        border-left: 1px solid #d7d7d7;
     }
 
     .col-banners {
@@ -749,8 +1246,10 @@ a {
     }
 
     .col-main-large {
-        width: 79%;
-        flex-basis: 79%;
+        width: 77%;
+        flex-basis: 77%;
+        border-left: 1px solid #d7d7d7;
+
     }
 
     .banner {
@@ -762,11 +1261,11 @@ a {
     }
 
     .banner:first-child {
-    margin-bottom: 2px;
+        margin-bottom: 2px;
     }
 
     .container {
-    padding: 0;
+        padding: 0;
     }
     .mobile-menu-btn {
         display: none;
@@ -883,11 +1382,8 @@ a {
         width: 20.3%;
         flex-basis: 20.3%;
     }
-    .menu ul li {
-        display: inline-block;
-    }
     .footer .menu-grid li {
-    padding: 0 3.5% 0 0;
+        padding: 0 3.5% 0 0;
     }
     .footer .menu-grid li:first-child {
         margin-left: 18%;
@@ -899,8 +1395,8 @@ a {
         padding: 6px 5px 7px 5px;
     }
     .menu-grid a:hover {
-    background: #e1223c;
-    color: #fff;
+        background: #e1223c;
+        color: #fff;
     }   
     .footer-info {
         text-align: left;
@@ -927,6 +1423,56 @@ a {
         text-align: right;
         box-sizing: border-box;
     }
+
+    .product-card-wrap {
+        width: 53%;
+        flex: 0 0 53%;
+    }
+    .parametr_wrap {
+        width: 47%;
+        flex: 0 0 47%;
+    }
+    .product-card {
+        width: 100%;
+    }
+
+    .card-slider {
+        width: 60%;
+        margin: 29px 0 0 15px;
+    }
+
+    .product-card:before {
+        content: 'новинка';
+        top: 65px;
+        left: 8px;
+        z-index: 10;
+    }
+    .slider-nav {
+        margin-left:0;
+    }
+    .services {
+        width: 100%;
+    }
+
+    .characteristics-block {
+        width: 70%;
+    }
+    .item-spec {
+        float: left;
+        width: 65%;
+    }
+    .downloads {
+        float: left;
+        width: 35%;
+    }
+    .download-item {
+        width: 100%;
+    }
+
+
+
+
+
 }
 
 

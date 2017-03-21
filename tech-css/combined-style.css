@@ -29,7 +29,7 @@ a {
     font-size: 2.4em;
     color: #968c85;
     text-align: center;
-    margin: 6px 0;
+    margin: 10px 0;
 }
 
 /********
@@ -359,9 +359,6 @@ a {
     padding: 5px 0;
     background: url('../tech-img/sidebar-dot.png') center/auto no-repeat;
 }
-.subgroup {
-
-}
 .requisites {
     text-align: center;
     border-top: solid 1px #d7d7d7;
@@ -434,8 +431,12 @@ a {
     font-size: 18px;
     font-family: 'Century Gothic';
     margin: 0;
+    padding-bottom: 10px;
 }
-
+.phone {
+    padding-top: 10px;
+    position: relative;
+}
 .phone::before {
     content: '';
     display: block;
@@ -445,6 +446,13 @@ a {
     background-image: url(../contacts/app/images/mobile.png);
     background-position: center top;
     background-repeat: no-repeat;
+    position: absolute;
+    top:20px;
+    left: 97px;
+    display: none;
+}
+.adress {
+    padding-top: 39px;
 }
  .adress p {
     font-size: 14px;
@@ -454,9 +462,11 @@ a {
 .contacts-page .title-red {
     color: #e1223b;
     font-size: 18px;
+    padding-bottom: 5px;
 }
 .map_wrap {
-    padding: 10px;
+     margin-bottom: 24px;
+    padding-top: 10px;
     background: url(../contacts/app/images/bg-pattern.png) top left repeat,#ededed;
 }
 .map {
@@ -648,6 +658,9 @@ a {
 
  @media screen and (min-width: 480px) {
     .logo span {
+        display: block;
+    }
+    .phone::before {
         display: block;
     }
 }

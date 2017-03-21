@@ -1,7 +1,19 @@
 /**
  * Created by Александра on 15.02.2017.
  */
+
+function setSidemenuToggling() {
+    $('.side-submenu .sidebar-title a').click(function(e){
+        e.preventDefault();
+        var id = $(e.target).attr('data-toggle');
+        console.log(id);
+        var submenu = $(id);
+        submenu.hasClass('active') ? submenu.removeClass('active') : submenu.addClass('active');
+    })
+}
+
 $(document).ready(function () {
+    setSidemenuToggling();
 
     $('.slider-main').slick({
         slidesToShow: 1,
@@ -22,5 +34,28 @@ $(document).ready(function () {
        var index = $(this).attr('data-slide') ;
        console.log(index);
         $('.slider-nav').slick('slickGoTo', index);
+    });
+
+    $('.main-slider .slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 640,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
 });

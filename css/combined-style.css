@@ -98,7 +98,7 @@ a {
 .banner a,
 .banner img {
     display: block;
-    width: 198px;
+    width: 100%;
     height: auto;
 }
 
@@ -1013,7 +1013,7 @@ a {
 
 .advantages .row-flex {
     justify-content: center;
-    margin: 17px -16px 0 43px;
+    margin-top: 17px;
     padding-bottom: 20px;
 }
 
@@ -1670,6 +1670,10 @@ a {
 
     .main-article .title {
         margin-left: -1.9%;
+    }
+
+    .advantages .row-flex {
+        margin: 17px 0 0 40px;
     }
 }
 

@@ -146,16 +146,16 @@ a {
     padding: 10px 0;
 }
 
+<<<<<<< HEAD
 .logo {
     text-align: center;
 }
 
+=======
+>>>>>>> c0e0b5c73d1d23da19b1a476bd5c811880c66197
 .logo a {
-    content: '';
-    background: url(../images/logo.png) 0 6px no-repeat;
-    width: 203px;
-    height: 30px;
     display: block;
+<<<<<<< HEAD
     top: 0;
     left: 0;
     margin: auto;
@@ -189,6 +189,13 @@ a {
     position: absolute;
     top: -10px;
     right: -16px;
+=======
+    margin: 9px 0 0 0;
+}
+.logo a img {
+    display: block;
+    margin: auto;
+>>>>>>> c0e0b5c73d1d23da19b1a476bd5c811880c66197
 }
 
 .shedule {
@@ -206,15 +213,23 @@ a {
 
 .search .input {
     width: 100%;
+<<<<<<< HEAD
     padding: 5px 0 2px 8px;
+=======
+    padding: 2px 0px 1px 11px;
+>>>>>>> c0e0b5c73d1d23da19b1a476bd5c811880c66197
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), inset 0 1px 11px rgba(0, 0, 0, 0.3);
     outline: none;
     text-transform: capitalize;
     font-size: 16px;
+<<<<<<< HEAD
     font-style: italic;
     margin-left: 17px;
+=======
+    font-style: italic;        
+>>>>>>> c0e0b5c73d1d23da19b1a476bd5c811880c66197
 }
 
 .search .input:focus {
@@ -225,10 +240,9 @@ a {
 
 .search .submit {
     position: absolute;
-    top: 0;
-    right: -17px;
+    top: 3px;
+    right: 3px;
     width: 24px;
-    height: 100%;
     cursor: pointer;
     background: url(../images/ic-search.png) 50% no-repeat;
 }
@@ -1158,7 +1172,7 @@ a {
 
 .footer .developer a {
     display: block;
-    padding: 0 20px 0 0;
+    padding: 0 35px 0 0;
 }
 
 .footer .developer span {
@@ -1170,9 +1184,16 @@ a {
  * adaptivity *
  **************/
 
+<<<<<<< HEAD
 @media screen and (min-width: 480px) {
     .logo span {
         display: block;
+=======
+
+ @media screen and (min-width: 480px) {
+    .logo a img {
+        margin: auto;
+>>>>>>> c0e0b5c73d1d23da19b1a476bd5c811880c66197
     }
 
 <<<<<<< HEAD
@@ -1265,12 +1286,17 @@ a {
         margin-left: 0;
     }
 
+<<<<<<< HEAD
     .logo a {
         display: inline-block;
     }
 
     .logo span {
+=======
+    .logo img {
+>>>>>>> c0e0b5c73d1d23da19b1a476bd5c811880c66197
         display: inline-block;
+        margin: auto;
     }
 
     .breadcrumbs {
@@ -1333,9 +1359,8 @@ a {
 
 @media screen and (min-width: 800px) {
     .col-sidebar {
-        width: 23%;
-        flex-basis: 23%;
-        padding-left: 24px;
+        width: 21%;
+        flex-basis: 21%;
     }
 
     .col-main {
@@ -1357,8 +1382,8 @@ a {
     }
 
     .col-main-large {
-        width: 77%;
-        flex-basis: 77%;
+        width: 79%;
+        flex-basis: 79%;
         border-left: 1px solid #d7d7d7;
 
     }
@@ -1409,11 +1434,18 @@ a {
     .header-col-3 {
         width: 27%;
     }
+<<<<<<< HEAD
 
+=======
+    .logo a img {
+        display: inline-block;
+        margin: 0;
+    }
+>>>>>>> c0e0b5c73d1d23da19b1a476bd5c811880c66197
     .shedule {
         display: block;
         text-align: center;
-        padding: 8px 0 0 73px;
+        padding: 6px 0 0 29px;
 
     }
 
@@ -1438,17 +1470,27 @@ a {
     }
 
     .search {
-        padding: 6px 0 0 10px;
+        padding: 9px 0 0 2px;
     }
 
     .search .submit {
+<<<<<<< HEAD
         top: 3px;
     }
 
+=======
+        top:12px;
+        right: 9px;
+    }  
+    .search .input {
+        width: 96%;
+        margin-left: 4px;
+    } 
+>>>>>>> c0e0b5c73d1d23da19b1a476bd5c811880c66197
     .contacts {
         display: block;
-        padding: 9px 0 0 86px;
-
+        padding: 7px 0 0 6px;
+        text-align: center;
     }
 
     .contacts span {
@@ -1462,7 +1504,7 @@ a {
     .basket {
         display: block;
         position: relative;
-        padding: 4px 0 0 108px;
+        padding: 7px 0 0 87px;
     }
 
     .basket a {
@@ -1473,7 +1515,7 @@ a {
         display: inline-block;
         position: absolute;
         top: -2px;
-        right: 162px;
+        left: 28px;
     }
 
     .basket span {
@@ -1495,10 +1537,16 @@ a {
         padding: 0;
         margin: 13px 0 0 0;
     }
+<<<<<<< HEAD
 
+=======
+    .menu-grid {
+        padding: 0 13px 0 0; 
+    }
+>>>>>>> c0e0b5c73d1d23da19b1a476bd5c811880c66197
     .menu-grid li {
         display: inline-block;
-        padding-right: 36px;
+        padding-right: 42px;
     }
 
     .menu-grid li:last-of-type {
@@ -1506,7 +1554,7 @@ a {
     }
 
     .menu-grid a {
-        padding: 8px 3px 8px 0px;
+        padding: 8px 3px 10px 0px;
     }
 
     .breadcrumbs {
@@ -1520,11 +1568,11 @@ a {
     }
 
     .footer .menu-grid li {
-        padding: 0 3.5% 0 0;
+        padding: 0 3.1% 0 0;
     }
 
     .footer .menu-grid li:first-child {
-        margin-left: 18%;
+        margin-left: 16%;
     }
 
     .footer .menu-grid li:last-child {
@@ -1532,7 +1580,7 @@ a {
     }
 
     .footer .menu-grid a {
-        padding: 6px 5px 7px 5px;
+        padding: 10px 5px 11px 5px;
     }
 
     .menu-grid a:hover {
@@ -1551,7 +1599,7 @@ a {
 
     .statistic {
         display: block;
-        padding: 8px 0 0 51px;;
+        padding:3px 0 0 28px;
     }
 
     .mobile-statistic {
@@ -1559,17 +1607,18 @@ a {
     }
 
     .footer-shedule {
-        padding: 30px 0 0 106px;
+        padding: 25px 0 0 79px;
     }
 
     .footer-contacts {
-        padding: 27px 0 0 109px;
+        padding: 23px 0 0 88px;
         box-sizing: border-box;
     }
 
     .developer {
         text-align: right;
         box-sizing: border-box;
+        padding:4px 9px 0 0;
     }
 
     .product-card-wrap {

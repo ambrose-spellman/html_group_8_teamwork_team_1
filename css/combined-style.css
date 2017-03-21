@@ -11,7 +11,7 @@ body {
 .container {
     max-width: 1000px;
     min-width: 320px;
-    width: 100%;
+    width: 95%;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -98,7 +98,7 @@ a {
 .banner a,
 .banner img {
     display: block;
-    width: 198px;
+    width: 100%;
     height: auto;
 }
 
@@ -407,7 +407,7 @@ a {
     margin-left: -12px;
     margin-right: 2px;
     padding: 5px 0;
-    background: url('../tech-img/sidebar-dot.png') center/auto no-repeat;
+    background: url('../images/sidebar-dot.png') center/auto no-repeat;
 }
 
 .requisites {
@@ -448,7 +448,7 @@ a {
 .main-article .title {
     font-size: 1.8em;
     color: #e1223b;
-    margin: 4.8% 0 2.2% -1.9%;
+    margin: 4.8% 0 2.2% 0;
 }
 
 .main-article p {
@@ -1013,7 +1013,7 @@ a {
 
 .advantages .row-flex {
     justify-content: center;
-    margin: 17px -16px 0 43px;
+    margin-top: 17px;
     padding-bottom: 20px;
 }
 
@@ -1443,7 +1443,7 @@ a {
 
     .search .submit {
 
-        top: 3px;
+        top: 11px;
     }
 
     .search .input {
@@ -1668,6 +1668,13 @@ a {
         bottom: 7%;
     }
 
+    .main-article .title {
+        margin-left: -1.9%;
+    }
+
+    .advantages .row-flex {
+        margin: 17px 0 0 40px;
+    }
 }
 
 

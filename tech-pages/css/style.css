@@ -57,22 +57,22 @@ h5 {
 	position: absolute;
 }
 .garantee::before {
-	background-image: url(../images/garantee.png);
+	background-image: url(../../images/garantee.png);
 }
 .car::before {
-	background-image: url(../images/car.png);
+	background-image: url(../../images/car.png);
 }
 .service::before {
-	background-image: url(../images/instruments.png);
+	background-image: url(../../images/instruments.png);
 }
 .pocket::before {
-	background-image: url(../images/pocket.png);
+	background-image: url(../../images/pocket.png);
 }
 .calc::before {
-	background-image: url(../images/calc.png);
+	background-image: url(../../images/calc.png);
 }
 .sale::before {
-	background-image: url(../images/sale.png);
+	background-image: url(../../images/sale.png);
 }
 
 

@@ -20,7 +20,7 @@ body {
 }
 .logo a {
     content: '';
-    background: url(../images/logo.png) 0px 6px no-repeat;
+    background: url(../../images/logo.png) 0px 6px no-repeat;
     width: 203px;
     height: 30px;
     display: block;
@@ -81,7 +81,7 @@ body {
     width: 24px;
     height: 100%;
     cursor: pointer;
-    background: url(../images/ic-search.png) 50% no-repeat;
+    background: url(../../images/ic-search.png) 50% no-repeat;
 }
 .search .submit:hover {
     opacity: 0.8;
@@ -222,7 +222,7 @@ body {
     }
     .basket a {
         content: '';
-        background: url(../images/basket.png) no-repeat;
+        background: url(../../images/basket.png) no-repeat;
         width: 58px;
         height: 100px;
         display: inline-block;

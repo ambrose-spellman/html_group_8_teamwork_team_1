@@ -52,7 +52,7 @@
 .download-item a::before {
 	content: '';
 	position: absolute;
-	background: url(../images/ic-specification.png);
+	background: url(../../images/ic-specification.png);
 	top: -3px;
 	left: -8px;
 	width: 21px;

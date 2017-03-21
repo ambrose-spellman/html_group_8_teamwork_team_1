@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contacts</title>
+    <title>Feedback</title>
 
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="css/fontface.css">
@@ -19,7 +19,7 @@
         <div class="container clearfix">
             <div class="header-col-1">
                 <div class="logo">
-                    <a href="main.html"></a>
+                    <a href="#"></a>
                     <span>Мы продаём то,<i> что купили бы сами</i></span>
                 </div>
                 <div class="shedule">
@@ -54,12 +54,12 @@
                 </div>
                 <nav class="menu displaynone">
                     <ul class="menu-grid">
-                        <li><a href="main.html">о магазине</a></li>
+                        <li><a href="#">о магазине</a></li>
                         <li><a href="#">оплата</a></li>
                         <li><a href="#">доставка</a></li>
                         <li><a href="#">поддержка</a></li>
                         <li><a href="#">новости</a></li>
-                        <li><a href="contacts.html">контакты</a></li>
+                        <li><a href="#">контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -71,7 +71,7 @@
             <div class="row-flex breadcrumbs-wrapper">
                 <p class="breadcrumbs">
                     <a href="#">Oursson</a>
-                    <a href="main.html">О магазине</a>
+                    <a href="#">О магазине</a>
                 </p>
                 <h1 class="title main-title"><a href="#">О компании</a></h1>
             </div>
@@ -193,33 +193,35 @@
                     <p>ИНН 3316007270, кор. счёт 30101810200000000716, Р/с 40703810612260000004</p>
                 </div>
             </div>
-            <div class="col col-main">
-                <div class="contacts-page contacts-schedule">
-                    <p class="title-red"> Время работы </p>
-                    <p>Понедельник - Пятница</p>
-                    <p>с 8-00 до 20-00</p>
-                    <p>Суббота  - Воскресение</p>
-                    <p>с 9-00 до 17-00</p>
+            <div class="col col-main-large">
+                <div class="services">
+                    <div class="service-item">
+                        <span class="ic ic-answers"></span>
+                        <h3>Вопросы и ответы</h3>
+                        <p>Наша продукция должна быть красивой! Нас вдохновляет современный европейскийдизайн «красота простых линий». Формы и цвета соответствуют по бесплатномуномеру, чтобы получить консультацию по продукции.</p>
+                    </div>
+                    <div class="service-item">
+                        <span class="ic ic-service"></span>
+                        <h3>Сервисные центры</h3>
+                        <p>Наша продукция должна быть красивой! Нас вдохновляет современныйевропейский дизайн «красота простых линий». Формы и цвета соответствуютпо бесплатному номеру, чтобы получить консультацию по продукции.</p>
+                    </div>
+                    <div class="service-item">
+                        <span class="ic ic-warranty"></span>
+                        <h3>Гарантийные обязательства</h3>
+                        <p>Наша продукция должна быть красивой! Нас вдохновляет современныйевропейский дизайн «красота простых линий». Формы и цвета соответствуютпо бесплатному номеру, чтобы получить консультацию по продукции</p>
+                    </div>
+                    <div class="service-item">
+                        <span class="ic ic-downloads"></span>
+                        <h3>Загрузки</h3>
+                        <p>Наша продукция должна быть красивой! Нас вдохновляет современныйевропейский дизайн «красота простых линий». Формы и цвета соответствуютпо бесплатному номеру, чтобы получить консультацию по продукции</p>
+                    </div>
+                    <div class="service-item">
+                        <span class="ic ic-video"></span>
+                        <h3>Видео</h3>
+                        <p>Наша продукция должна быть красивой! Нас вдохновляет современныйевропейский дизайн «красота простых линий». Формы и цвета соответствуютпо бесплатному номеру, чтобы получить консультацию по продукции</p>
+                    </div>
                 </div>
-                <div class="contacts-page phone clearfix">
-                    <p class="title-red">Телефоны</p>
-                    <p>8 (495) 510 27 27</p>
-                    <p>8 (800) 100 05 56 </p>
-                </div>
-                <div class="contacts-page adress">
-                    <p class="title-red">Адрес</p>
-                    <p >г Минск ул. Энтузиастов 84</p>
-                    <p>ИНН 3316007270, кор. счёт 30101810200000000716, Р/с 40703810612260000004</p>
-                </div>
-                <div class="map_wrap">
-                    <div id="map" class="map" ></div>
-                </div>
-            </div>
-            <div class="col col-banners row-flex">
-                <div class="col banner"><a href="#"><img src="uploads/banner-example.jpg" alt="Ин-Ян"></a></div>
-                <div class="col banner"><a href="#"><img src="uploads/banner-example.jpg" alt="Ин-Ян"></a></div>
-                <div class="col banner"><a href="#"><img src="uploads/banner-example.jpg" alt="Ин-Ян"></a></div>
-            </div>
+            </div>            
         </section>
 
 
@@ -229,7 +231,25 @@
                 <div class="picture">
                     <span class="label">новинка</span>
                     <img src="uploads_html/slider-item.jpg" alt=""/>
-                    <p class="type">MP46FDA</p>
+                    <h4 class="type">MP46FDA</h4>
+                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
+                </div>
+                <div class="picture">
+                    <span class="label">новинка</span>
+                    <img src="uploads_html/slider-item.jpg" alt=""/>
+                    <h4 class="type">MP46FDA</h4>
+                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
+                </div>
+                <div class="picture">
+                    <span class="label">новинка</span>
+                    <img src="uploads_html/slider-item.jpg" alt=""/>
+                    <h4 class="type">MP46FDA</h4>
+                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
+                </div>
+                <div class="picture">
+                    <span class="label">новинка</span>
+                    <img src="uploads_html/slider-item.jpg" alt=""/>
+                    <h4 class="type">MP46FDA</h4>
                     <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
                 </div>
                 <div class="picture">
@@ -241,25 +261,7 @@
                 <div class="picture">
                     <span class="label">новинка</span>
                     <img src="uploads_html/slider-item.jpg" alt=""/>
-                    <p class="type">MP46FDA</p>
-                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
-                </div>
-                <div class="picture">
-                    <span class="label">новинка</span>
-                    <img src="uploads_html/slider-item.jpg" alt=""/>
-                    <p class="type">MP46FDA</p>
-                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
-                </div>
-                <div class="picture">
-                    <span class="label">новинка</span>
-                    <img src="uploads_html/slider-item.jpg" alt=""/>
-                    <p class="type">MP46FDA</p>
-                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
-                </div>
-                <div class="picture">
-                    <span class="label">новинка</span>
-                    <img src="uploads_html/slider-item.jpg" alt=""/>
-                    <p class="type">MP46FDA</p>
+                    <h4 class="type">MP46FDA</h4>
                     <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
                 </div>
             </div>
@@ -348,6 +350,7 @@
     <script src="vendor/slick.min.js"></script>
     <script src="js/header_mobile_menu.js"></script>
     <script type="text/javascript" src="../tech-js/sidebar.js"></script>
+    <script src="js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('.main-slider .slider').slick({
@@ -374,21 +377,6 @@
             });
         });
     </script>
-    <script>
-        function initMap() {
-            var minsk = {lat: 53.912741, lng: 27.7673183};
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
-                center: minsk
-            });
-            var marker = new google.maps.Marker({
-                position: minsk,
-                map: map
-            });
-        }
-    </script>
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwWFSLHfjwENysYhQX4CUjJ1oyB_69g84&callback=initMap">
-    </script>
+    
 </body>
 </html>

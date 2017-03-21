@@ -1,17 +1,17 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contacts</title>
+    <title>Product Card</title>
 
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="css/fontface.css">
     <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="vendor/slick.css">
-    <link rel="stylesheet" href="vendor/slick-theme.css">
+    <link rel="stylesheet" href="vendor/slick-card.css">
+    <link rel="stylesheet" href="vendor/slick-theme-card.css">
     <link rel="stylesheet" href="tech-css/combined-style.css">
 </head>
 <body>
@@ -19,7 +19,7 @@
         <div class="container clearfix">
             <div class="header-col-1">
                 <div class="logo">
-                    <a href="main.html"></a>
+                    <a href="#"></a>
                     <span>Мы продаём то,<i> что купили бы сами</i></span>
                 </div>
                 <div class="shedule">
@@ -54,12 +54,12 @@
                 </div>
                 <nav class="menu displaynone">
                     <ul class="menu-grid">
-                        <li><a href="main.html">о магазине</a></li>
+                        <li><a href="#">о магазине</a></li>
                         <li><a href="#">оплата</a></li>
                         <li><a href="#">доставка</a></li>
                         <li><a href="#">поддержка</a></li>
                         <li><a href="#">новости</a></li>
-                        <li><a href="contacts.html">контакты</a></li>
+                        <li><a href="#">контакты</a></li>
                     </ul>
                 </nav>
             </div>
@@ -71,7 +71,7 @@
             <div class="row-flex breadcrumbs-wrapper">
                 <p class="breadcrumbs">
                     <a href="#">Oursson</a>
-                    <a href="main.html">О магазине</a>
+                    <a href="#">О магазине</a>
                 </p>
                 <h1 class="title main-title"><a href="#">О компании</a></h1>
             </div>
@@ -193,33 +193,137 @@
                     <p>ИНН 3316007270, кор. счёт 30101810200000000716, Р/с 40703810612260000004</p>
                 </div>
             </div>
-            <div class="col col-main">
-                <div class="contacts-page contacts-schedule">
-                    <p class="title-red"> Время работы </p>
-                    <p>Понедельник - Пятница</p>
-                    <p>с 8-00 до 20-00</p>
-                    <p>Суббота  - Воскресение</p>
-                    <p>с 9-00 до 17-00</p>
+            <div class="col col-main-large">
+                <div class="product-row-flex">
+                    <div class="product-card-wrap">
+                        <div class="product-card">
+                            <div class="slider-main">
+                                <div class="label-card">
+                                    <img src="uploads_html/red.png" alt="img">
+                                </div>
+                                <div class="label-card">
+                                    <img src="uploads_html/green.png" alt="img">
+                                </div>
+                                <div class="label-card">
+                                    <img src="uploads_html/blue.png" alt="img">
+                                </div>
+                                <div class="label-card">
+                                    <img src="uploads_html/yellow.png" alt="img">
+                                </div>
+                            </div>
+                            <h4>Выберите цвет</h4>
+                            <div class="colors">
+                                <i data-slide="0" class="circle c-red"></i>
+                                <i data-slide="1" class="circle c-green"></i>
+                                <i data-slide="2" class="circle c-blue"></i>
+                                <i data-slide="3" class="circle c-yellow"></i>
+                            </div>
+                            <a href="" class="zoom" data-large-image="/images/some-large-image.jpg"></a>
+                        </div>
+                        <div class="card-slider">
+                            <div class="slider-nav">
+                                <img src="uploads_html/red-sm.jpg" alt="img" >
+                                <img src="uploads_html/green-sm.jpg" alt="img" >
+                                <img src="uploads_html/blue-sm.jpg" alt="img" >
+                                <img src="uploads_html/yello-sm.jpg" alt="img" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="parametr_wrap">
+                        <div class="parametr clearfix">
+                            <h2 class="parametr_title">Мультиварка высокого<br>давления   MP46FDA</h2>
+                            <p class="parametr_decription">Артикул: 18167891365981132 <br>Цвет: Слоновая кость</p>
+                            <p class="description">Краткоре описание техники... Краткоре описание техники... Краткоре описание техники...</p>
+                            <div class="characteristics-block">             
+                                <ul class="clearfix">
+                                    <li><span>Обьём плоскости для приготовления, п</span></li>
+                                    <li>5</li>
+                                    <li><span>Приготовление под давлением</span></li>
+                                    <li>Да</li>
+                                    <li><span>Приготовление на пару</span></li>
+                                    <li>Да</li>
+                                    <li><span>Управление</span></li>
+                                    <li>Электронное</li>
+                                    <li><span>Количество автоматических  программ</span></li>
+                                    <li>11</li>
+                                    <li><span>Количество уровней защиты</span></li>
+                                    <li>11</li>
+                                    <li><span>Книга рецептов</span></li>
+                                    <li>Да</li>
+                                </ul>
+
+                            </div>
+                            <p class="smart">В товаре используется технология: <span>SMART </span> <br>Этот товар на <span>Яндекс-маркете</span> Яндекс-маркете </p>
+                            <div class="social clearfix">
+                                <a href="#" class="share">Поделиться</a>
+                                <img src="parameter/images/icon-fb.png" width="23" height="24" alt="fb">
+                                <img src="parameter/images/icon-tw.png" width="23" height="24" alt="tw">
+                                <img src="parameter/images/icon-b.png" width="23" height="24" alt="vk">
+                                <img src="parameter/images/icon-sovety.png" width="23" height="24" alt="sovety">
+                                <img src="parameter/images/icon-google.png" width="23" height="24" alt="google">
+                            </div>
+                            <div class="price_wrap">
+                                <p class="price">136 763 руб.</p>
+                                <a href="#" class="buy">Купить</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="contacts-page phone clearfix">
-                    <p class="title-red">Телефоны</p>
-                    <p>8 (495) 510 27 27</p>
-                    <p>8 (800) 100 05 56 </p>
-                </div>
-                <div class="contacts-page adress">
-                    <p class="title-red">Адрес</p>
-                    <p >г Минск ул. Энтузиастов 84</p>
-                    <p>ИНН 3316007270, кор. счёт 30101810200000000716, Р/с 40703810612260000004</p>
-                </div>
-                <div class="map_wrap">
-                    <div id="map" class="map" ></div>
+                <div class="specification">
+                    <div class="specification_title">
+                        <h3>описание</h3>
+                    </div>
+                    <div class="spec-block clearfix">
+                        <div class="item-spec"> 
+                            <p>Варить, жарить, запекать, тушить…  А точнее – умеет замечательно и вкусно готовить наша мультиварка высокого давления. Стоять у плиты больше не модно, да и не нужно. Зачем тратить драгоценное время?  Мультиварка высокого давления идеально разберется с обедом без Вас! Ведь она многофункциональна, у нее автоматические режимы приготовления, а  технология SMART проконтролирует и отрегулирует температуру и давление, необходимые Вашим блюдам. Удобные подсказки и понятная индикация помогут справиться даже с самой сложной затеей. Самое главное − мультиварка обеспечивает безопасность использования даже без вашего участия. Цвет слоновой кости или сочные краски – выбор за Вами. А с книгой полезных рецептов, входящей в комплект, никто и не заподозрит, что Вы и не знали раньше такого количества замечательных  блюд. </p>
+                        </div>
+                        <div class="downloads">
+                            <h4>файлы/документы</h4>
+                            <div class="download-item">
+                                <a href="#">инструкция <span> (4mb)</span></a>
+                            </div>
+                            <div class="download-item">
+                                <a href="#">книга рецептов <span>(4mb)</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="specification_title">
+                        <h3>Характеристики</h3>
+                    </div>  
+                    <div class="characteristics-block">             
+                        <ul class="clearfix">
+                            <li><span>Обьём плоскости для приготовления, п</span></li>
+                            <li>5</li>
+                            <li><span>Приготовление под давлением</span></li>
+                            <li>Да</li>
+                            <li><span>Приготовление на пару</span></li>
+                            <li>Да</li>
+                            <li><span>Управление</span></li>
+                            <li>Электронное</li>
+                            <li><span>Количество автоматических  программ</span></li>
+                            <li>11</li>
+                            <li><span>Количество уровней защиты</span></li>
+                            <li>11</li>
+                            <li><span>Книга рецептов</span></li>
+                            <li>Да</li>
+                            <li><span>Звуковой сигнал окончания работы</span></li>
+                            <li>Да</li>
+                            <li><span>Количество режимов</span></li>
+                            <li>12</li>
+                            <li><span>Регулировка уровня давления пара</span></li>
+                            <li>Да</li>
+                            <li><span>Программирование режимов приготовления</span></li>
+                            <li>Да</li>
+                            <li><span>Антипригарное покрытие емкости приготовления</span></li>
+                            <li>Dyking Coating</li>
+                        </ul>
+
+                    </div>
                 </div>
             </div>
-            <div class="col col-banners row-flex">
-                <div class="col banner"><a href="#"><img src="uploads/banner-example.jpg" alt="Ин-Ян"></a></div>
-                <div class="col banner"><a href="#"><img src="uploads/banner-example.jpg" alt="Ин-Ян"></a></div>
-                <div class="col banner"><a href="#"><img src="uploads/banner-example.jpg" alt="Ин-Ян"></a></div>
-            </div>
+            
         </section>
 
 
@@ -229,7 +333,25 @@
                 <div class="picture">
                     <span class="label">новинка</span>
                     <img src="uploads_html/slider-item.jpg" alt=""/>
-                    <p class="type">MP46FDA</p>
+                    <h4 class="type">MP46FDA</h4>
+                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
+                </div>
+                <div class="picture">
+                    <span class="label">новинка</span>
+                    <img src="uploads_html/slider-item.jpg" alt=""/>
+                    <h4 class="type">MP46FDA</h4>
+                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
+                </div>
+                <div class="picture">
+                    <span class="label">новинка</span>
+                    <img src="uploads_html/slider-item.jpg" alt=""/>
+                    <h4 class="type">MP46FDA</h4>
+                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
+                </div>
+                <div class="picture">
+                    <span class="label">новинка</span>
+                    <img src="uploads_html/slider-item.jpg" alt=""/>
+                    <h4 class="type">MP46FDA</h4>
                     <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
                 </div>
                 <div class="picture">
@@ -241,74 +363,11 @@
                 <div class="picture">
                     <span class="label">новинка</span>
                     <img src="uploads_html/slider-item.jpg" alt=""/>
-                    <p class="type">MP46FDA</p>
-                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
-                </div>
-                <div class="picture">
-                    <span class="label">новинка</span>
-                    <img src="uploads_html/slider-item.jpg" alt=""/>
-                    <p class="type">MP46FDA</p>
-                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
-                </div>
-                <div class="picture">
-                    <span class="label">новинка</span>
-                    <img src="uploads_html/slider-item.jpg" alt=""/>
-                    <p class="type">MP46FDA</p>
-                    <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
-                </div>
-                <div class="picture">
-                    <span class="label">новинка</span>
-                    <img src="uploads_html/slider-item.jpg" alt=""/>
-                    <p class="type">MP46FDA</p>
+                    <h4 class="type">MP46FDA</h4>
                     <p>Краткоре описание техники... Краткоре описание техники...Краткоре описание техники...</p>
                 </div>
             </div>
         </section>
-
-
-        <section class="advantages">
-            <h2 class="title section-title">Преимущества</h2>
-            <div class="row-flex">
-                <div class="col">
-                    <div class="icon garantee">
-                        <h3 class="title article-title">Гарантия качества</h3>
-                        <p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место. </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="icon pocket">
-                        <h3 class="title article-title">Честные цены</h3>
-                        <p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место.  </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="icon car">
-                        <h3 class="title article-title">Доставка по всей Беларусии</h3>
-                        <p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="icon calc">
-                        <h3 class="title article-title">Кредит «не выходя из дома»</h3>
-                        <p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место.  </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="icon service">
-                        <h3 class="title article-title">Надёжный сервис</h3>
-                        <p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место. </p>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="icon sale">
-                        <h3 class="title article-title">Выгодные покупки</h3>
-                        <p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место. </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-
     <footer  class="footer">
         <div class="footer-menu">
             <nav class="menu container">
@@ -346,8 +405,10 @@
 
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="vendor/slick.min.js"></script>
+    <script src="vendor/slick.min-card.js"></script>
     <script src="js/header_mobile_menu.js"></script>
     <script type="text/javascript" src="../tech-js/sidebar.js"></script>
+    <script src="js/main.js"></script>
     <script type="text/javascript">
         $(document).ready(function () {
             $('.main-slider .slider').slick({
@@ -374,21 +435,6 @@
             });
         });
     </script>
-    <script>
-        function initMap() {
-            var minsk = {lat: 53.912741, lng: 27.7673183};
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 15,
-                center: minsk
-            });
-            var marker = new google.maps.Marker({
-                position: minsk,
-                map: map
-            });
-        }
-    </script>
-    <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwWFSLHfjwENysYhQX4CUjJ1oyB_69g84&callback=initMap">
-    </script>
+    
 </body>
 </html>

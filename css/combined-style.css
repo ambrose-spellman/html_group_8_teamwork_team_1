@@ -11,7 +11,7 @@ body {
 .container {
     max-width: 1000px;
     min-width: 320px;
-    width: 100%;
+    width: 95%;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -448,7 +448,7 @@ a {
 .main-article .title {
     font-size: 1.8em;
     color: #e1223b;
-    margin: 4.8% 0 2.2% -1.9%;
+    margin: 4.8% 0 2.2% 0;
 }
 
 .main-article p {
@@ -1668,6 +1668,9 @@ a {
         bottom: 7%;
     }
 
+    .main-article .title {
+        margin-left: -1.9%;
+    }
 }
 
 

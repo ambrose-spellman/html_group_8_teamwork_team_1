@@ -481,7 +481,6 @@ a {
 
 .contacts-page p {
     font-size: 18px;
-    font-family: 'Century Gothic';
     margin: 0;
     padding-bottom: 10px;
 }
@@ -511,7 +510,6 @@ a {
 
 .adress p {
     font-size: 14px;
-    font-family: 'Century Gothic';
     margin: 0;
 }
 
@@ -541,7 +539,6 @@ a {
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
     padding: 15px 0 9px 0;
-    font-family: 'Century Gothic';
     position: relative;
 }
 
@@ -549,7 +546,6 @@ a {
     content: 'новинка';
     color: #fff;
     font-size: 15px;
-    font-family: 'Century Gothic';
     padding: 3px 12px;
     background: #e1223c;
     -webkit-border-bottom-right-radius: 9px;
@@ -665,7 +661,6 @@ a {
 
 .parametr_title {
     font-size: 18px;
-    font-family: 'Century Gothic';
     margin: 0;
     color: #434342;
     padding-bottom: 11px;
@@ -674,7 +669,6 @@ a {
 
 .parametr_decription {
     font-size: 14px;
-    font-family: 'Century Gothic';
     margin: 0;
     color: #151515;
     padding-bottom: 20px;
@@ -683,7 +677,6 @@ a {
 
 .description {
     font-size: 11px;
-    font-family: 'Century Gothic';
     margin: 0;
     color: #423c37;
     border-bottom: 1px solid #d7d7d7;
@@ -693,7 +686,6 @@ a {
 
 .smart {
     font-size: 12px;
-    font-family: 'Century Gothic';
     margin: 0;
     color: #423c37;
     padding: 21px 0 0 10px;
@@ -706,7 +698,6 @@ a {
 
 .smart span {
     font-size: 12px;
-    font-family: 'Century Gothic';
     margin: 0;
     color: #e1223c;
 }
@@ -735,7 +726,6 @@ a {
     border-radius: 0 0 17px 0;
     color: #434342;
     font-size: 14px;
-    font-family: 'Century Gothic';
     margin-right: 7px;
     padding: 5px 4px 0 0px;
     text-decoration: none;
@@ -760,7 +750,6 @@ a {
 
 .price {
     font-size: 24px;
-    font-family: 'Century Gothic';
     margin: 0;
     color: #968c85;
     display: inline-block;
@@ -772,7 +761,6 @@ a {
     border-radius: 0 0 0 20px;
     color: #434342;
     font-size: 18px;
-    font-family: 'Century Gothic';
     margin: -6px -3px 0 0;
     padding: 0 10px;
     text-decoration: none;
@@ -902,7 +890,6 @@ a {
 .services {
     width: 100%;
     position: relative;
-    font-family: "Century Gothic";
     /*border-top: 1px solid #434342;*/
     /*    border-bottom: 1px solid #434342;*/
 }
@@ -1229,12 +1216,11 @@ a {
     }
 
     .ic-downloads {
-
-        bottom: 33%;
+        bottom: 31%;
     }
 
     .ic-video {
-        bottom: 12%;
+        bottom: 10%;
     }
 }
 
@@ -1646,11 +1632,11 @@ a {
     }
 
     .ic-downloads {
-        bottom: 20%;
+        bottom: 30%;
     }
 
     .ic-video {
-        bottom: -5%;
+        bottom: 8%;
     }
 
 }

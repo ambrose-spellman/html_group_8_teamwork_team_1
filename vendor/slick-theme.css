@@ -86,11 +86,11 @@
 }
 .slick-prev:before
 {
-    content: url("../img_css/btn-prev.png");
+    content: url("../images/btn-prev.png");
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: url("../img_css/btn-prev.png");
+    content: url("../images/btn-prev.png");
 }
 
 .slick-next
@@ -105,11 +105,10 @@
 }
 .slick-next:before
 {
-    content: url("../img_css/btn-next.png");
+    content: url("../images/btn-next.png");
 }
-[dir='rtl'] .slick-next:before
-{
-    content: url("../img_css/btn-next.png");
+[dir='rtl'] .slick-next:before {
+    content: url("../images/btn-next.png");
 }
 
 /* Dots */

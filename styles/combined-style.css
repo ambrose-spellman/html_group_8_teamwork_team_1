@@ -579,6 +579,10 @@ a {
     margin: 11px;
 }
 
+.slick-arrow {
+    z-index: 1;
+}
+
 .colors {
     padding-left: 13px;
 }
@@ -700,7 +704,6 @@ a {
     padding-top: 10px;
 }
 
-}
 .smart span {
     font-size: 12px;
     font-family: 'Century Gothic';
@@ -1170,6 +1173,7 @@ a {
         display: block;
     }
 }
+
 @media screen and (min-width: 480px) {
     .logo a img {
         margin: auto;
@@ -1327,6 +1331,7 @@ a {
     }
 
 }
+
 @media screen and (min-width: 800px) {
     .col-sidebar {
         width: 21%;
@@ -1359,7 +1364,7 @@ a {
     }
 
     .side-submenu {
-        padding: 20% 0 8%;
+        padding: 5% 0 8%;
     }
 
     .banner {

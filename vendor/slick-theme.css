@@ -35,6 +35,7 @@
     border: none;
     outline: none;
     background: transparent;
+    z-index:9999;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -73,9 +74,8 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-prev
-{
-    left: 16px;
+.slick-prev {
+    left: -14px;
     top: 53px;
 
 }
@@ -95,7 +95,7 @@
 
 .slick-next
 {
-    right: 16px;
+    right: -16px;
     top: 45px;
 }
 [dir='rtl'] .slick-next
@@ -208,7 +208,7 @@
         right: 8px;
     }
 }
-@media screen and (min-width: 480px) and (max-width: 800px) {
+@media screen and (min-width: 480px) and (max-width: 640px) {
     .slick-prev {
         left: 0;
         top:60px;

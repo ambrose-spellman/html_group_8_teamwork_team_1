@@ -141,45 +141,13 @@ a {
     padding: 10px 0;
 }
 
-.logo {
-    text-align: center;;
-}
 .logo a {
-    content: '';
-    background: url(../images/logo.png) 0 6px no-repeat;
-    width: 203px;
-    height: 30px;
     display: block;
-    top: 0;
-    left: 0;
+    margin: 9px 0 0 0;
+}
+.logo a img {
+    display: block;
     margin: auto;
-    text-align: center;
-}
-.logo span {
-    font-size: 15px;
-    color: #000;
-    font-family: "MyriadProRegular", sans-serif;
-    text-transform: inherit;
-    position: relative;
-    letter-spacing: 0px;
-    padding-left: 2px;
-}
-.logo span i {
-    color: #e1223b;
-    font-style: normal;
-    padding-right: 2px;
-}
-.logo span::after {
-    content: '';
-    background: url(../images/logo_2.png) no-repeat;
-    background-position: 0 0;
-    width: 25px;
-    height: 25px;
-    display: inline-block;
-    margin: 0 0 0 12px;
-    position: absolute;
-    top:-10px;
-    right: -16px;
 }
 .shedule {
     display: none;
@@ -193,15 +161,14 @@ a {
 }
 .search .input {
     width: 100%;
-    padding: 5px 0px 2px 8px;
+    padding: 2px 0px 1px 11px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     box-shadow: inset 0 0 8px rgba(0,0,0,0.1), inset 0 1px 11px rgba(0,0,0,0.3);
     outline: none;
     text-transform: capitalize;
     font-size: 16px;
-    font-style: italic;
-    margin-left: 17px;;
+    font-style: italic;        
 }
 .search .input:focus {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
@@ -210,10 +177,9 @@ a {
 }
 .search .submit {
     position: absolute;
-    top: 0;
-    right: -17px;
+    top: 3px;
+    right: 3px;
     width: 24px;
-    height: 100%;
     cursor: pointer;
     background: url(../images/ic-search.png) 50% no-repeat;
 }
@@ -1048,7 +1014,7 @@ a {
 }
 .footer .developer a {
     display: block;
-    padding: 0 20px 0 0;
+    padding: 0 35px 0 0;
 }
 .footer .developer span {
     font-size: 14px;
@@ -1061,8 +1027,8 @@ a {
 
 
  @media screen and (min-width: 480px) {
-    .logo span {
-        display: block;
+    .logo a img {
+        margin: auto;
     }
 
     .product-card {
@@ -1147,11 +1113,9 @@ a {
         margin-left: 0;
     }
 
-    .logo a {
+    .logo img {
         display: inline-block;
-    }
-    .logo span {
-        display: inline-block;
+        margin: auto;
     }
 
     .breadcrumbs {
@@ -1190,15 +1154,6 @@ a {
         width: 50%;
     }
 
-
-
-
-
-
-
-
-
-
     .product-card {
         width: 100%;
     }
@@ -1222,9 +1177,8 @@ a {
 
 @media screen and (min-width: 800px) {
     .col-sidebar {
-        width: 23%;
-        flex-basis: 23%;
-        padding-left: 24px;
+        width: 21%;
+        flex-basis: 21%;
     }
 
     .col-main {
@@ -1246,8 +1200,8 @@ a {
     }
 
     .col-main-large {
-        width: 77%;
-        flex-basis: 77%;
+        width: 79%;
+        flex-basis: 79%;
         border-left: 1px solid #d7d7d7;
 
     }
@@ -1291,10 +1245,14 @@ a {
     .header-col-3 {
         width: 27% ;
     }
+    .logo a img {
+        display: inline-block;
+        margin: 0;
+    }
     .shedule {
         display: block;
         text-align: center;
-        padding: 8px 0 0 73px;
+        padding: 6px 0 0 29px;
 
     }
     .shedule span {
@@ -1314,15 +1272,20 @@ a {
         padding: 0 0 0 20px;
     }
     .search {
-        padding: 6px 0 0 10px;
+        padding: 9px 0 0 2px;
     }
     .search .submit {
-        top: 3px;
-    }
+        top:12px;
+        right: 9px;
+    }  
+    .search .input {
+        width: 96%;
+        margin-left: 4px;
+    } 
     .contacts {
         display: block;
-        padding: 9px 0 0 86px;
-
+        padding: 7px 0 0 6px;
+        text-align: center;
     }
     .contacts span {
         display: block;
@@ -1334,7 +1297,7 @@ a {
     .basket {
         display: block;
         position: relative;
-        padding: 4px 0 0 108px;
+        padding: 7px 0 0 87px;
     }
     .basket a {
         content: '';
@@ -1344,7 +1307,7 @@ a {
         display: inline-block;
         position: absolute;
         top: -2px;
-        right: 162px;
+        left: 28px;
     }
     .basket span {
         display: block;
@@ -1363,15 +1326,18 @@ a {
         padding: 0;
         margin: 13px 0 0 0;
     }
+    .menu-grid {
+        padding: 0 13px 0 0; 
+    }
     .menu-grid li {
         display: inline-block;
-        padding-right: 36px;
+        padding-right: 42px;
     }
     .menu-grid li:last-of-type {
         padding-right: 0;
     }
     .menu-grid a {
-        padding: 8px 3px 8px 0px;
+        padding: 8px 3px 10px 0px;
     }
     .breadcrumbs {
         width: 79%;
@@ -1383,16 +1349,16 @@ a {
         flex-basis: 20.3%;
     }
     .footer .menu-grid li {
-        padding: 0 3.5% 0 0;
+        padding: 0 3.1% 0 0;
     }
     .footer .menu-grid li:first-child {
-        margin-left: 18%;
+        margin-left: 16%;
     }
     .footer .menu-grid li:last-child {
         padding: 0;
     }
     .footer .menu-grid a {
-        padding: 6px 5px 7px 5px;
+        padding: 10px 5px 11px 5px;
     }
     .menu-grid a:hover {
         background: #e1223c;
@@ -1407,21 +1373,22 @@ a {
     }
     .statistic {
         display: block;
-        padding: 8px 0 0 51px;;
+        padding:3px 0 0 28px;
     }
     .mobile-statistic {
         display: none;
     }
     .footer-shedule {
-        padding: 30px 0 0 106px;
+        padding: 25px 0 0 79px;
     }
     .footer-contacts {
-        padding: 27px 0 0 109px;
+        padding: 23px 0 0 88px;
         box-sizing: border-box;
     }
     .developer {
         text-align: right;
         box-sizing: border-box;
+        padding:4px 9px 0 0;
     }
 
     .product-card-wrap {

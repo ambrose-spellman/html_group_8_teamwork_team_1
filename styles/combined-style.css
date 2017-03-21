@@ -1204,34 +1204,37 @@ a {
     }
 
     .service-item {
-        padding: 60px 40px 0 40px;
+        padding: 0 0 39px 102px;
         margin-bottom: 0;
     }
-
     .ic {
         left: 11%;
     }
-
     .ic-answers {
+        background-position: -3px 0;
         top: 1%;
     }
 
     .ic-service {
+        background-position: -7px 27%;
         top: 21%;
     }
 
     .ic-warranty {
+        background-position: -7px 52%;
         top: 41%;
     }
 
     .ic-downloads {
-
+        background-position: -4px 81%;
         bottom: 33%;
     }
 
     .ic-video {
+        background-position: -4px 108%;
         bottom: 12%;
     }
+
 }
 
 @media screen and (min-width: 640px) {
@@ -1639,13 +1642,36 @@ a {
     .download-item {
         width: 100%;
     }
+    .ic {
+        background: url(../images/service.png) no-repeat;
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        left: 20px;
+    }
 
+    .ic-answers {
+        background-position: -3px 0;
+        top: 0;
+    }
+
+    .ic-service {
+        background-position: -7px 27%;
+        top: 22%;
+    }
+
+    .ic-warranty {
+        background-position: -7px 52%;
+        top: 40%;
+    }
     .ic-downloads {
-        bottom: 20%;
+        background-position: -4px 81%;
+        bottom: 29%;
     }
 
     .ic-video {
-        bottom: -5%;
+        background-position: -4px 108%;
+        bottom: 7%;
     }
 
 }

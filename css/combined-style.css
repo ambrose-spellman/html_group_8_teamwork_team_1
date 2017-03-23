@@ -159,7 +159,7 @@ a {
 }
 
 .logo span {
-    font-size: 15px;
+    font-size: 1.5em;
     color: #000;
     font-family: "MyriadProRegular", sans-serif;
     text-transform: inherit;
@@ -214,7 +214,7 @@ a {
     box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1), inset 0 1px 11px rgba(0, 0, 0, 0.3);
     outline: none;
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 1.6em;
     font-style: italic;
     margin-left: 17px;
 }
@@ -272,7 +272,7 @@ a {
     width: 100%;
     display: block;
     color: #434342;
-    font-size: 18px;
+    font-size: 1.8em;
     padding: 5px 0 5px 14px;
 }
 
@@ -282,7 +282,7 @@ a {
 }
 
 .mobile-menu .fa {
-    font-size: 20px;
+    font-size: 20em;
     color: #434342;
 }
 
@@ -480,7 +480,7 @@ a {
 }
 
 .contacts-page p {
-    font-size: 18px;
+    font-size: 1.8em;
     margin: 0;
     padding-bottom: 10px;
 }
@@ -509,18 +509,18 @@ a {
 }
 
 .adress p {
-    font-size: 14px;
+    font-size: 1.4em;
     margin: 0;
 }
 
 .contacts-page .title-red {
     color: #e1223b;
-    font-size: 18px;
+    font-size: 1.8em;
     padding-bottom: 5px;
 }
 
 .map_wrap {
-    margin-bottom: 24px;
+    margin-bottom: 2.4em;
     padding-top: 10px;
     background: url(../images/background.png) top left repeat, #ededed;
 }
@@ -545,7 +545,7 @@ a {
 .product-card:before {
     content: 'новинка';
     color: #fff;
-    font-size: 15px;
+    font-size: 1.5em;
     padding: 3px 12px;
     background: #e1223c;
     -webkit-border-bottom-right-radius: 9px;
@@ -585,7 +585,7 @@ a {
 
 .product-card h4 {
     margin: 22px 0 6px 5px;
-    font-size: 12px;
+    font-size: 1.2em;
 }
 
 .circle {
@@ -660,7 +660,7 @@ a {
 }
 
 .parametr_title {
-    font-size: 18px;
+    font-size: 1.8em;
     margin: 0;
     color: #434342;
     padding-bottom: 11px;
@@ -668,7 +668,7 @@ a {
 }
 
 .parametr_decription {
-    font-size: 14px;
+    font-size: 1.4em;
     margin: 0;
     color: #151515;
     padding-bottom: 20px;
@@ -676,7 +676,7 @@ a {
 }
 
 .description {
-    font-size: 11px;
+    font-size: 1.1em;
     margin: 0;
     color: #423c37;
     border-bottom: 1px solid #d7d7d7;
@@ -685,7 +685,7 @@ a {
 }
 
 .smart {
-    font-size: 12px;
+    font-size: 1.2em;
     margin: 0;
     color: #423c37;
     padding: 21px 0 0 10px;
@@ -697,7 +697,7 @@ a {
 }
 
 .smart span {
-    font-size: 12px;
+    font-size: 1.2em;
     margin: 0;
     color: #e1223c;
 }
@@ -725,7 +725,7 @@ a {
     border-top: 1px solid #d7d7d7;
     border-radius: 0 0 17px 0;
     color: #434342;
-    font-size: 14px;
+    font-size: 1.4em;
     margin-right: 7px;
     padding: 5px 4px 0 0px;
     text-decoration: none;
@@ -749,7 +749,7 @@ a {
 }
 
 .price {
-    font-size: 24px;
+    font-size: 2.4em;
     margin: 0;
     color: #968c85;
     display: inline-block;
@@ -760,7 +760,7 @@ a {
     background: #edecec;
     border-radius: 0 0 0 20px;
     color: #434342;
-    font-size: 18px;
+    font-size: 1.8em;
     margin: -6px -3px 0 0;
     padding: 0 10px;
     text-decoration: none;
@@ -778,7 +778,7 @@ a {
 
 .specification_title h3 {
     background: #d7d7d7;
-    font-size: 14px;
+    font-size: 1.4em;
     color: #434342;
     margin: 0 0 0 16px;
     padding: 11px 19px 7px 14px;
@@ -792,14 +792,14 @@ a {
 }
 
 .item-spec p {
-    font-size: 12px;
+    font-size: 1.2em;
     color: #434342;
     line-height: 1.25;
     margin: 14px 0 32px 0;
 }
 
 .downloads h4 {
-    font-size: 18px;
+    font-size: 1.8em;
     color: #968c85;
     margin: 15px 0 31px 68px;
     padding: 0;
@@ -817,7 +817,7 @@ a {
     display: block;
     position: relative;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 1.4em;
     color: #434342;
     padding: 0 0 0 27px;
     margin: 0 0 8px 26px;
@@ -853,7 +853,7 @@ a {
     float: left;
     display: inline;
     position: relative;
-    font-size: 12px;
+    font-size: 1.2em;
     color: #434342;
     padding: 0 0 4px 0;
 }
@@ -904,7 +904,7 @@ a {
 }
 
 .service-item h3 {
-    font-size: 18px;
+    font-size: 1.8em;
     margin-top: 30px;
 }
 
@@ -913,7 +913,7 @@ a {
 }
 
 .service-item p {
-    font-size: 14px;
+    font-size: 1.4em;
     line-height: 18px;
 }
 
@@ -968,20 +968,20 @@ a {
 
 .main-slider .type {
     color: #434342;
-    font-size: 18px;
+    font-size: 1.8em;
     font-weight: 300;
     margin-top: 13px;
 }
 
 .main-slider .picture p {
     color: #434342;
-    font-size: 11px;
+    font-size: 1.1em;
     padding: 0 18px;
 }
 
 .main-slider .label {
     color: #fff;
-    font-size: 10px;
+    font-size: 1em;
     padding: 4px 8px;
     background: #e1223c;
     -webkit-border-bottom-right-radius: 9px;
@@ -1023,14 +1023,14 @@ a {
 }
 
 .advantages .article-title {
-    font-size: 14px;
+    font-size: 1.4em;
     color: #151515;
     padding: 0 15px 0 85px;
     margin: 0;
 }
 
 .advantages p {
-    font-size: 12px;
+    font-size: 1.2em;
     color: #423c37;
     padding: 0 15px 0 85px;
     margin: 16px 0;
@@ -1099,7 +1099,7 @@ a {
     width: 100%;
     display: block;
     color: #434342;
-    font-size: 16px;
+    font-size: 1.6em;
     padding: 5px 0 5px 14px;
 }
 
@@ -1118,13 +1118,13 @@ a {
 
 .footer-shedule span {
     display: block;
-    font-size: 14px;
+    font-size: 1.4em;
     color: #423c37;
 }
 
 .footer-contacts span {
     display: block;
-    font-size: 16px;
+    font-size: 1.6em;
     color: #423c37;
 }
 
@@ -1146,7 +1146,7 @@ a {
 }
 
 .footer .developer span {
-    font-size: 14px;
+    font-size: 1.4em;
     color: #423c37;
 }
 
